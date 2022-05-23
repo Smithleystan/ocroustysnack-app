@@ -1,9 +1,10 @@
 import React from "react";
 import petdej from "../assets/images-menu/petitdej.jpg";
 import diner from "../assets/images-menu/diner.jpg";
-import gouter from "../assets/images-menu/gouter.jpg";
+import gouter from "../assets/imgcrousti/gouter.png"
 import boissonimg from "../assets/images-menu/boissonsimg.png"
 import { Link } from "react-router-dom";
+import test from "../assets/imgcrousti/"
 
 
 function Menu() {
