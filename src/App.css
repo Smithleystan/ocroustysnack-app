@@ -1,278 +1,38 @@
-body {background-color: gray;
-  color:white ;}
-
-
-/* Navbar */
-a{
-  text-decoration: none;
-  color : white
- 
-}
-.logo {
-  padding: 5% 0%;
-  width: 100px;
-  height: 100px;
-}
-
-.nav{
-  height: 5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  align-content: center;
-  /* border : 1px solid black; */
-  /* background-color: gray; */
-  
-
-  
-}
-
-.navitem{
-  width: 10rem;
-  height: 5rem;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-.navitem:hover{
-  background-color: black;
-  border :1px solid white
-}
-/* Main */
-
-.Main {
-  height: 30vh;
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  color : white;
-  gap :10px;
-  border : 1px solid black;
-  
-   
-}
-
-.hola{
-  position: absolute;
-  /* transform: translateY(-300px); */
-  opacity: 0%;
-  
-}
-
-.hole{
-  /* transform: translateY(0px); */
-  opacity: 100%;
-  transition: all 0.5s;
-}
-
-.autre{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-
-}
-
-.Main1 {
-  height: 70vh;
-  
-}
-
-.imgm{
-  height: 10rem;
-  width: 25rem;
-  transition: all 0.4s;
-  display: flex ;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
- 
-  
-}
-.imgm:hover{
-  height: 11rem; 
-  width: 27rem;
-  
-}
-
-.Main2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 70vh;
-  background-image: url(./assets/banniere-restaurant/banniere.png);
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.959);
-  background-position-x: center;
-  background-position-y: -40px;
-}
-
-.Main3 {
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10VW;
-  border : solid 1px  black;
-  overflow-wrap: break-word;
-}
-
-.description {
-  height: 50vh;
-  width: 400px;
-  display : flex;
-  justify-content: center;
-  
-  align-items: center;
-  
-}
-
-#traiteurpix {
-  height:15rem;
-  width: 20rem;
-}
-
-.cardmenu {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-  border: 1px solid black;
-  height: 80vh;
-  gap: 30px;
-  white-space: wrap;
-}
-.cardmain {
-  border: 1px solid black;
-  height: 100px;
-  width: 455px;
-  width: 200px;
-  height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  border: 1px solid black;
-  height: 5rem;
-  width: 5rem;
-  margin-top: 30px;
-}
-
-/* .carre {
-  width: 50px;
-  height: 50px;
-} */
-
-/* Footer */
-/* Carterepas */
-.title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin :40px 0;
-}
-.content {
-  /* height: 90vh; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 4rem;
-}
-.ca{
-  height: fit-content;
-  width: 15rem;
-  background-color: gray;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 5px;
-  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
-  word-wrap: initial;
-  color : white;
-  transition: all 0.5s;
-  flex-wrap: nowrap;
-  
-  }
-
-  .ca:hover{
-    
-    box-shadow: 5px 5px 0.6em white, -5px -5px 0.6em white;
-  }
-
-  /* Boisson */
-  .contentboisson{
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-  }
-.boisson {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-.liquid{
-  margin-top: 10px;
-}
-  /* Plan */
-
-.plan {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  height: 86.5vh;
-}
-  
-.plou {
-  width: 372px;
+.App {
   text-align: center;
-  align-items: center;
-  order: -1;
 }
 
-.plac {
-  width: 250px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
 
-/* Contact */
-.mainform{
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.petdej{
-  width: 101px;
-  height: fit-content;
-}
-.borderfoot{
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-footer {
   flex-direction: column;
-  justify-content: none;
   align-items: center;
-  text-align: center;
-  background-color: gray;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
-  border: 1 px solid black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
