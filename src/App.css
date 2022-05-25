@@ -1,40 +1,99 @@
 /* NAVBAR */
-.navbar{
-  border : 1px solid black
-}
+
 .nav{
   height: 2rem;
   display :flex;
   justify-content: center;
   align-items: center;
-  gap : 30px
+  
 }
+
 ul{
   display: flex;
   text-decoration: none;
   align-items: center;
   list-style: none;
   justify-content: center;
-  gap : 30px
+  gap : 10px;
+  border: 1px solid black;
+}
+
+li{
+  border :1px solid black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+ 
+}
+
+li:hover{
+  background-color: gray;
+  cursor: pointer;
 }
 
 .menu{
   display: flex;
   justify-content: center;
-  border: 1px solid black;
+  gap : 30px;
+  border : solid 1px black
+  
 }
 .imgmenu{
-  height: 200px;
-  width: 200px;
+ border : solid 1px black
+ 
 }
 
 .yes{
   opacity: 0%;
-  position: relative;
-  transition: 2s ease-out;
+  position: absolute;
+  display: flex ;  
+  justify-content: center;
 }
 .no{
   opacity: 100%;
   transition: 2s ease-out;
+  display: flex;  
+  justify-content: center;  
+}
+
+/* cards */
+.supcard{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  display: flex;
+  justify-content:  space-between;
+  flex-wrap: wrap;
+  width: 40rem;
+  gap :10px;
+  border : solid 1px black;
+  padding: 30px;
+
+}
+
+.ca{
   
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.te{
+  border : solid 1px black;
+  border-radius: 0 25px 25px 25px ;
+  background-color: black;
+  color: white;
+  width: 120px;
+  height: 90px;
+  flex-wrap: wrap;
+  
+  
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  color : red;
+  margin : 30px
 }
