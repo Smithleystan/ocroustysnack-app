@@ -1,23 +1,35 @@
-import React, {useState} from 'react'
+import Navinf from "./Navinf"
 import "../App.css"
-import Navinf from './Navinf'
+import {Link} from "react-router-dom"
+import {useState} from "react"
+
 
 
 function Navbar() {
-const [test, setTest] = useState(true)
+ const [cliq, setCliq] = useState(true)
+ const [leave, setLeave] = useState (false)
 
   return (
       <>
-      <nav className='navbar'>
-     <ul>
-         <li>Accueil</li>
-         <li onClick={()=>setTest(!test)}>Cartes</li>
-         <li>restaurant & vous</li>
-         <li>Nous trouver</li>
-         <li>Logo restaurant</li>
-     </ul>
+      
+     <nav className="nav">
+         <Link to="accueil"><div className="li"><h3>Accueil</h3></div></Link>
+         <Link to="carte"><div className="li" onClick={()=>setCliq(!cliq)} onMouseEnter={()=>setCliq(!cliq)}><h3>Cartes</h3></div></Link>
+         <div className="li"><h3>
+           <div className="restaurant">
+           <div>restaurant</div>
+           <div>&</div>
+           <div>vous</div>       
+           </div>
+           </h3></div>
+         <Link to="place"><div className="li"><h3>Nous trouver</h3></div></Link>
+         <div className=" logoposition"><h3>Logo restaurant</h3></div>
      </nav>
-     <div className={test ? 'yes' : 'no' }><Navinf/></div>
+     <hr/>
+     <div className={cliq ? "yes" : "no"}   onMouseLeave={()=>setCliq(!leave)}><Navinf/></div>
+     {console.log(leave)}
+    
+   
      
 
      

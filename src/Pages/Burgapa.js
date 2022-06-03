@@ -1,37 +1,39 @@
-import  {useState} from "react"
+import {useState} from "react"
+import { burgers } from "../food/burger"
+import { galettes } from "../food/burger"
 
 function Burgapa() {
-    const [burgers, setBurgers] = useState([
-        {nom : "Fish Burger",  prix : "3.00" ,  menu:  "5€50"},
-        {nom : "Beef Burger",  prix : "3.00" ,  menu:  "5€50"},
-        {nom : "Chesse Burger",  prix : "3€50" ,  menu:  "5€50"},
-        {nom : "Chicken Burger",  prix : "3€50" ,  menu:  "5€50"},
-        {nom : "Double Cheese Burger",  prix : "4€50" ,  menu:  "5€50"},
-      
-         ])
+  const img = "https://res.cloudinary.com/dsx6152nt/image/upload/v1654184436/cook/burger_vurms5.png"
 
-    
-         const [galettes, setGalettes] = useState([
-            {nom : "Viande Hachée",  prix : "4.00" ,  menu:  "5€50"},
-            {nom : "Poulet Rôti",  prix : "4€00" ,  menu:  "5€50"},
-            {nom : "Kebab Poulet",  prix : "4€00" ,  menu:  "5€50"},
-            {nom : "Kefta",  prix : "4€00" ,  menu:  "5€50"},
-            {nom : "Tenders",  prix : "4€50" ,  menu:  "5€50"},
-            {nom : "Mixte",  prix : "4€50" ,  menu:  "5€50"},
-          
-             ])
-    
   return (
     <>
-    <div className='title'>Burger</div>
-    <div className='supcard'>
+    <div className='title'><h1>Burger</h1></div>
+        
+        <div className='supcard'>
     <div className='card'>
-      {burgers.map((burg) => {return <div className='te'><div className='ca'>{burg.nom}</div><div className='ca'>{burg.prix}</div></div>})}
+      {burgers.map((burg) => {
+        return <div className='te'>
+        <div className="ca"><img src={img} className="testimg"></img></div>
+        <div>
+        <div className='ca'>{burg.nom}</div>
+        <div className='ca'>{burg.prix}€</div>        
+        <div className='ca'>{burg.pricemenu}</div>
+        </div>
+        </div>})}
     </div></div>
-    <div className='title'>Galette</div>
+    <div className='title'><h1>Galette</h1></div>
     <div className='supcard'>
     <div className='card'>
-      {galettes.map((gal) => {return <div className='te'><div className='ca'>{gal.nom}</div><div className='ca'>{gal.prix}</div></div>})}
+      {galettes.map((gal) => {
+        return <div className='te'>
+        <div><img src={img} className="testimg"></img></div>
+        <div>
+        <div className='ca'>{gal.nom}</div>
+        <div className='ca'>{gal.prix}€ </div> 
+        <div className='ca'>{gal.pricemenu}€</div>
+        </div>
+       
+        </div>})}
     </div></div>
     </>
   

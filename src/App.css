@@ -1,59 +1,121 @@
-/* NAVBAR */
-
-.nav{
-  height: 2rem;
-  display :flex;
-  justify-content: center;
-  align-items: center;
+body{
+  background-color: gray;
+  text-decoration: none;
   
 }
+/* NAVBAR */
 
-ul{
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.navbar{
+  background-color:red ;
+  color : white;
+  border: solid black 1px;
+}
+nav{
   display: flex;
   text-decoration: none;
   align-items: center;
   list-style: none;
   justify-content: center;
-  gap : 10px;
-  border: 1px solid black;
+  flex-wrap: wrap;
+  height: 80px;
+  
 }
 
-li{
-  border :1px solid black;
+.li{
+  
+  color : white;
   height: 40px;
   display: flex;
+  justify-content: center;
   align-items: center;
+  width: 150px;
+  height: 80px;
+ text-decoration: none;
+ 
  
 }
 
-li:hover{
-  background-color: gray;
+.li:hover{
+  background-color: black;
   cursor: pointer;
+  box-shadow:5px 5px 0.6em white, -5px -5px 0.6em white;
+
+}
+.positionnavinf{
+  display: flex;
+  justify-content: center;
+}
+
+.logoposition{
+  order: -1;
+  /* flex-grow: 1; */
+  
+  justify-content: center;
+  color :white ;
+
 }
 
 .menu{
-  display: flex;
-  justify-content: center;
-  gap : 30px;
-  border : solid 1px black
+
+ 
+    height: 24rem;
+    display: flex;
+    justify-content: center;
+    color :black;
+    gap :10px;
+    opacity: ;
+    width: 100vw;
+    flex-wrap: nowrap;
+   
+  
+    
+    
+     
   
 }
 .imgmenu{
- border : solid 1px black
- 
+  height: 12rem;
+  width: 25rem;
+  transition: all 0.4s;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.imgmenu:hover{
+  color :white;
+  background-color: black;
+  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+  height: 13rem;
+  width : 27rem
+
+}
+
+.imgm1{
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654184436/cook/diner_osjuly.jpg);
+  background-size: cover;
+  color : white
 }
 
 .yes{
-  opacity: 0%;
+  display: none;
   position: absolute;
-  display: flex ;  
   justify-content: center;
 }
 .no{
-  opacity: 100%;
-  transition: 2s ease-out;
-  display: flex;  
+  display: flex;
   justify-content: center;  
+  position: absolute;
+  background-color: white;
+  color :black
 }
 
 /* cards */
@@ -67,8 +129,9 @@ li:hover{
   flex-wrap: wrap;
   width: 40rem;
   gap :10px;
-  border : solid 1px black;
+  
   padding: 30px;
+  
 
 }
 
@@ -77,18 +140,33 @@ li:hover{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+ 
+}
+.testimg{
+  width: 150px;
+  height: 145px;
+  border-radius: 0 0 0 25px;
+}
+.te{
+  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+  border-radius: 0 25px 25px 25px ;
+  margin-bottom: 20px;
+  color: white;
+  width: 300px;
+  height: 160px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-direction: row;
+  gap :10px;
+ 
 }
 
-.te{
-  border : solid 1px black;
-  border-radius: 0 25px 25px 25px ;
-  background-color: black;
-  color: white;
-  width: 120px;
-  height: 90px;
-  flex-wrap: wrap;
-  
-  
+.te:hover{
+  box-shadow:5px 5px 0.6em white, -5px -5px 0.6em white;
+  width: 310px;
+  height: 165px;
 }
 
 .title{
@@ -97,3 +175,55 @@ li:hover{
   color : red;
   margin : 30px
 }
+
+/* HOme */
+.homeimg{
+  border : 1px solid black ;
+  width: 100vw;
+  height: 50vh;
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1653389896/crousty/gouter_h638sf.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0px;
+  color : white; 
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+  
+}
+
+.imghome{
+  width: 100vw;
+}
+
+/* Place */
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 86.5vh;
+}
+
+.plou {
+  width: 42rem;
+  text-align: center;
+  align-items: center;
+  order: -1;
+  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+
+
+
+}
+
+.plac {
+  width: 250px;
+}
+
+.burg{
+ width: 30px;
+ height: 30px;
+}
+
+

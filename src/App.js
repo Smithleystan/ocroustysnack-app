@@ -6,6 +6,9 @@ import Sandwich from "./Pages/Sandwichfroid"
 import Burgapas from "./Pages/Burgapa"
 import  Chickens from "./Pages/Chickens"
 import Extras from "./Pages/Extras"
+import Home from "./Pages/Home"
+import Place from './Pages/Place';
+import Carte from './Pages/Carte';
 
 
 
@@ -15,6 +18,9 @@ function App() {
   <Navbar/>
           
         <Routes>
+          <Route path="accueil" element={<Home/>}/>
+          <Route path="carte" element={<Carte/>}/>
+          <Route path="place" element={<Place/>}/>
           <Route path="sandwitchs" element={<Sandwich/>}/>
           <Route path="burger" element={<Burgapas/>}/>
           <Route path="chickens" element={<Chickens/>}/>
