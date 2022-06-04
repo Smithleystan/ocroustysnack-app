@@ -9,6 +9,7 @@ function Sandwichfroid() {
   return (
     <>
     <div className='title'><h1>Sandwitch froid</h1> </div>
+    <hr className="hr"/>
     <div className='supcard'>
     <div className='card'>
       {sandwich.map((sand) => {
@@ -22,6 +23,7 @@ function Sandwichfroid() {
           </div>})}
     </div></div>
     <div className='title'><h1>Sandwitch chaud</h1> </div>
+    <hr className="hr"/>
     <div className='supcard'>
     <div className='card'>
       {sandwchaud.map((chaud) => {

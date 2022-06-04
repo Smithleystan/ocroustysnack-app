@@ -8,6 +8,8 @@ function Burgapa() {
   return (
     <>
     <div className='title'><h1>Burger</h1></div>
+    <hr className="hr"/>
+    
         
         <div className='supcard'>
     <div className='card'>
@@ -22,6 +24,7 @@ function Burgapa() {
         </div>})}
     </div></div>
     <div className='title'><h1>Galette</h1></div>
+    <hr className="hr"/>
     <div className='supcard'>
     <div className='card'>
       {galettes.map((gal) => {

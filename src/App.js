@@ -9,6 +9,7 @@ import Extras from "./Pages/Extras"
 import Home from "./Pages/Home"
 import Place from './Pages/Place';
 import Carte from './Pages/Carte';
+import Footer from "./component/Footer"
 
 
 
@@ -28,6 +29,8 @@ function App() {
 
             
         </Routes>
+
+  <Footer/>
   
    </>
   );
