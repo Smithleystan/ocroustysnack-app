@@ -14,7 +14,7 @@ function Navbar() {
       
      <nav className="nav">
          <Link to="accueil"><div className="li"><h3>Accueil</h3></div></Link>
-         <Link to="carte"><div className="li" onClick={()=>setCliq(!cliq)} onMouseEnter={()=>setCliq(!cliq)}><h3>Cartes</h3></div></Link>
+         <Link to="carte"><div className="li" onClick={()=>setCliq(!cliq)}      onMouseEnter={()=>setCliq(!cliq)}><h3>Cartes</h3></div></Link>
          <div className="li"><h3>
            <div className="restaurant">
            <div>restaurant</div>
@@ -26,7 +26,7 @@ function Navbar() {
          <div className=" logoposition"><h3>Logo restaurant</h3></div>
      </nav>
 
-     <div className={cliq ? "yes" : "no"}   onMouseLeave={()=>setCliq(!leave)}><Navinf/></div>
+     <div className={cliq ? "yes" : "no"} onMouseLeave={()=>setCliq(!leave)}  ><Navinf/></div>
      {console.log(leave)}
     
    
