@@ -23,7 +23,7 @@ function Navbar() {
            </div>
            </h3></div>
          <Link to="place"><div className="li"><h3>Nous trouver</h3></div></Link>
-         <div className=" logoposition"><h3>Logo restaurant</h3></div>
+         <div className=" logoposition"><h3>CROUSTI CHAUD</h3></div>
      </nav>
 
      <div className={cliq ? "yes" : "no"} onMouseLeave={()=>setCliq(!leave)}  ><Navinf/></div>

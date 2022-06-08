@@ -110,6 +110,7 @@ nav{
   justify-content: center;
   color: black;
   border-radius: 25px;
+  
 }
 
 .imgmenu:hover{
@@ -117,7 +118,7 @@ nav{
   background-color: black;
   box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
   height: 13rem;
-  width : 27rem
+  width : 25vw
 
 }
 
@@ -141,6 +142,12 @@ nav{
   flex-wrap: nowrap;
   margin-top: 1px;
  
+}
+
+.testimg{
+  width: 150px;
+  height: 145px;
+  border-radius: 0 0 0 25px;
 }
 /* pages Menu */
 ------------/* cards */
@@ -213,11 +220,7 @@ nav{
   flex-wrap: wrap;
  
 }
-.testimg{
-  width: 150px;
-  height: 145px;
-  border-radius: 0 0 0 25px;
-}
+
 .te{
   box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
   border-radius: 25px 25px 25px 25px ;
@@ -292,10 +295,7 @@ nav{
 }
 
 .plou:hover{
-   width: 43rem;
-  text-align: center;
-  align-items: center;
-  order: -1;
+  
   box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
 }
 
