@@ -15,7 +15,7 @@ function Burgapa() {
     <div className='card'>
       {burgers.map((burg) => {
         return <div className='te'>
-        <div className="ca"><img src={img} className="testimg"></img></div>
+        <div className="ca"><img src={burg.picture} className="testimg"></img></div>
         <div>
         <div className='ca'>{burg.nom}</div>
         <div className='ca'>{burg.prix}€</div>        
@@ -29,7 +29,7 @@ function Burgapa() {
     <div className='card'>
       {galettes.map((gal) => {
         return <div className='te'>
-        <div><img src={img} className="testimg"></img></div>
+        <div><img src={gal.picture} className="testimg"></img></div>
         <div>
         <div className='ca'>{gal.nom}</div>
         <div className='ca'>{gal.prix}€ </div> 

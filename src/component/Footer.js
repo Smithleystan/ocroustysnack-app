@@ -3,8 +3,8 @@ import React from 'react'
 function Footer() {
   return (
       <>
-    <div className='footbord'>
-        <div className='enterfooter'>Footer</div>
+    <div className='footer'>
+        <div className='enterfooter'><h1>Footer</h1></div>
     </div>
     </>
   )

@@ -12,12 +12,12 @@ function Sandwichfroid() {
     <hr className="hr"/>
     <div className='supcard'>
     <div className='card'>
-      {sandwich.map((sand) => {
+      {sandwich.map((froid) => {
         return <div className='te'>
-          <div className='ca'><img src={img} className="testimg"></img></div>
+          <div className='ca'><img src={froid.picture} className="testimg"></img></div>
           <div>
-            <div className='ca'>{sand.nom}</div>
-            <div className='ca'>{sand.prix}</div>
+            <div className='ca'>{froid.nom}</div>
+            <div className='ca'>{froid.prix}</div>
           </div>
          
           </div>})}
@@ -28,7 +28,7 @@ function Sandwichfroid() {
     <div className='card'>
       {sandwchaud.map((chaud) => {
         return <div className='te'>
-          <div className="ca"><img src={img} className="testimg"></img></div>
+          <div className="ca"><img src={chaud.picture} className="testimg"></img></div>
           <div>
           <div className='ca'>{chaud.nom}</div>
           <div className='ca'>{chaud.prix}</div>

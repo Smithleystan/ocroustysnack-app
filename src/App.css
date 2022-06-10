@@ -1,10 +1,13 @@
 body{
-  background-color: gray;
+
+  background-color: white;
   text-decoration: none;
   
 }
 /* NAVBAR */
-
+*{
+  margin: 0;
+}
 
 a{
   text-decoration: none;
@@ -16,6 +19,7 @@ a{
   background-color:red ;
   color : white;
   border: solid black 1px;
+  position: fixed;
 }
 nav{
   width: 100vw;
@@ -26,9 +30,11 @@ nav{
   justify-content: center;
   flex-wrap: wrap;
   height: 80px;
-  border-bottom: 1px solid black;
   box-shadow: 10px 5px 5px ;
-  background-color: #C7C3BD;
+  background-color: black;
+  position: sticky;
+  top : 0;
+
   
 }
 
@@ -100,6 +106,24 @@ nav{
 }
 
 /* deuxieme barre */
+.menu{
+
+  background: gainsboro;
+  height: 13rem;
+  display: flex;
+  justify-content: center;
+  color :black;
+  gap :1vw;
+  width: 100vw;
+  flex-wrap: nowrap;
+  margin-top: 1px;
+  top :80px;
+  left: 1vw;
+  right: 7vw;;
+  position : fixed;
+  
+ 
+}
 .imgmenu{
   height: 12rem;
   width: 20vw;
@@ -110,6 +134,7 @@ nav{
   justify-content: center;
   color: black;
   border-radius: 25px;
+  
   
 }
 
@@ -123,26 +148,38 @@ nav{
 }
 
 .imgm1{
-  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654184436/cook/diner_osjuly.jpg);
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654844262/ocroustycard/A93A4F00-DBA5-4FC8-99D8-E21004BCD2B7_yvcssh.jpg);
   background-size: cover;
   background-position: center;
   color : black
   
 }
 
-.menu{
-
- 
-  height: 13rem;
-  display: flex;
-  justify-content: center;
-  color :black;
-  gap :1vw;
-  width: 100vw;
-  flex-wrap: nowrap;
-  margin-top: 1px;
- 
+.imgm2{
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654819432/ocroustycard/C1E05AB4-D948-4A5E-8D68-68FFD7E4D7F1_epxxil.jpg) ;
+  background-size: cover;
+  background-position: center;
+  color : black
 }
+
+.imgm3{
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654789970/ocroustycard/04B5023E-4874-40FC-8CD4-F56E3280CCA8_m3ponw.jpg);
+  background-size: cover;
+  background-position: center;
+  color : black
+  
+
+}
+
+.imgm4{
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654789969/ocroustycard/5CA105FB-3C12-467A-B6F2-E2D7D570AAE7_kbih6b.jpg);
+  background-size: cover;
+  background-position: center;
+  color : black;
+  
+  
+}
+
 
 .testimg{
   width: 150px;
@@ -225,7 +262,7 @@ nav{
   box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
   border-radius: 25px 25px 25px 25px ;
   margin-bottom: 20px;
-  color: white;
+  color: black;
   width: 22vw;
   height: 220px;
   flex-wrap: wrap;
@@ -238,9 +275,8 @@ nav{
 }
 
 .te:hover{
-  box-shadow:5px 5px 0.6em white, -5px -5px 0.6em white;
-  width: 310px;
-  height: 220px;
+  box-shadow:5px 5px 0.6em gray, -5px -5px 0.6em gray;
+  
 }
 
 .title{
@@ -252,24 +288,20 @@ nav{
 
 /* HOme */
 .homeimg{
-  border : 1px solid black ;
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-  /* background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1653389896/crousty/gouter_h638sf.png); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 0px;
-  color : white; 
-  display: flex;
-  justify-content: Center;
-  align-items: center;
-  
+width: 100vw;
+height: 80vh;
+border: solid 1px black;
+background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654844263/ocroustycard/2A504749-56BA-411A-9CF4-69AAAE165CF5_xprmhh.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex ;
+justify-content: center;
+align-items: center;
+color: white;
 }
 
-.imghome{
-  width: 100vw;
-}
+
+
 
 /* Place */
 
@@ -279,6 +311,7 @@ nav{
   align-items: center;
   flex-wrap: wrap;
   height: 86.5vh;
+  
 }
 
 
@@ -312,9 +345,18 @@ nav{
 /* footer */
 
 /* hr */
-.hr{
-  width :150px
+.footer{
+  width :100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content : center;
+  align-items:center;
+  color: white;
+  margin-bottom: 0px;
+  background-color: black;
 }
+
 
 
 

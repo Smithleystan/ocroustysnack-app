@@ -12,7 +12,7 @@ function Chickens() {
     <div className='card'>
       {chickens.map((chick) => {
         return <div className='te'>
-        <div><img src={img} className="testimg"></img></div>
+        <div><img src={chick.picture} className="testimg"></img></div>
         <div>
             <div className='ca'>{chick.nom}</div>
             <div className='ca'>{chick.prix}€</div>

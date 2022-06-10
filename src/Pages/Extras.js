@@ -13,7 +13,7 @@ function Extras() {
     <div className='card'>
       {extra.map((ext) =>
        {return <div className='te'>
-        <div className='ca'><img src={img} className="testimg"></img></div>
+        <div className='ca'><img src={ext.picture} className="testimg"></img></div>
         <div>
           <div className='ca'>{ext.nom}</div>
           <div className='ca'>{ext.prix}€</div>
