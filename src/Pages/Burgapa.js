@@ -29,7 +29,7 @@ function Burgapa() {
     <div className='card'>
       {galettes.map((gal) => {
         return <div className='te'>
-        <div><img src={gal.picture} className="testimg"></img></div>
+        <div className="ca"><img src={gal.picture} className="testimg"></img></div>
         <div>
         <div className='ca'>{gal.nom}</div>
         <div className='ca'>{gal.prix}€ </div> 

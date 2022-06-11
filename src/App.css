@@ -108,7 +108,7 @@ nav{
 /* deuxieme barre */
 .menu{
 
-  background: gainsboro;
+  background: black;
   height: 13rem;
   display: flex;
   justify-content: center;
@@ -263,13 +263,13 @@ nav{
   border-radius: 25px 25px 25px 25px ;
   margin-bottom: 20px;
   color: black;
-  width: 22vw;
+  width: 18vw;
   height: 220px;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center; 
-  flex-direction: row;
+  flex-direction: column;
   gap :10px;
  
 }
@@ -283,7 +283,11 @@ nav{
   display: flex;
   justify-content: center;
   color : red;
-  margin : 30px
+  margin : 30px;
+  border :3px solid red; 
+  width: 10rem;
+  border-radius: 25px;
+
 }
 
 /* HOme */
@@ -344,7 +348,6 @@ color: white;
 
 /* footer */
 
-/* hr */
 .footer{
   width :100vw;
   height: 60px;
@@ -357,6 +360,10 @@ color: white;
   background-color: black;
 }
 
+/* hr */
+.hr{
+  box-shadow: 5px 5px 0.6em gray, -5px -5px 0.6em gray;
+}
 
 
 
