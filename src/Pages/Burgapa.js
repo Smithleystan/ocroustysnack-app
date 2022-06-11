@@ -7,7 +7,9 @@ function Burgapa() {
 
   return (
     <>
+    <div className="centertitle">
     <div className='title'><h1>Burger</h1></div>
+    </div>
     <hr className="hr"/>
     
         
@@ -18,12 +20,15 @@ function Burgapa() {
         <div className="ca"><img src={burg.picture} className="testimg"></img></div>
         <div>
         <div className='ca'>{burg.nom}</div>
-        <div className='ca'>{burg.prix}€</div>        
-        <div className='ca'>{burg.pricemenu}</div>
+        <div className='ca'>seul : {burg.prix}€</div>        
+        <div className='ca'>menu : {burg.pricemenu}€</div>
         </div>
         </div>})}
     </div></div>
+
+    <div className="centertitle">
     <div className='title'><h1>Galette</h1></div>
+    </div>
     <hr className="hr"/>
     <div className='supcard'>
     <div className='card'>
@@ -32,8 +37,8 @@ function Burgapa() {
         <div className="ca"><img src={gal.picture} className="testimg"></img></div>
         <div>
         <div className='ca'>{gal.nom}</div>
-        <div className='ca'>{gal.prix}€ </div> 
-        <div className='ca'>{gal.pricemenu}€</div>
+        <div className='ca'>seul : {gal.prix}€ </div> 
+        <div className='ca'>menu : {gal.pricemenu}€</div>
         </div>
        
         </div>})}

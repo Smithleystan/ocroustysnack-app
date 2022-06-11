@@ -10,6 +10,7 @@ import Home from "./Pages/Home"
 import Place from './Pages/Place';
 import Carte from './Pages/Carte';
 import Footer from "./component/Footer"
+import Horaires from './Pages/Horaires';
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="burger" element={<Burgapas/>}/>
           <Route path="chickens" element={<Chickens/>}/>
           <Route path="extra" element={<Extras/>}/>
+          <Route path="horaire" element={<Horaires/>}/>
 
             
         </Routes>

@@ -7,7 +7,9 @@ function Extras() {
  
   return (
     <div>
+      <div className='centertitle'>
     <div className='title'><h1>Extras</h1> </div>
+    </div>
     <hr className="hr"/>
     <div className='supcard'>
     <div className='card'>

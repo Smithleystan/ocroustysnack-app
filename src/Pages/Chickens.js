@@ -6,10 +6,10 @@ function Chickens() {
 
   return (
     <div>
-         <div className='title'><h1>Chickens</h1> </div>
+         <div className='centertitle'><div className='title'><h1>Chickens</h1> </div></div>
          <hr className="hr"/>
-    <div className='supcard'>
-    <div className='card'>
+     <div className='supcard'>
+      <div className='card'>
       {chickens.map((chick) => {
         return <div className='te'>
         <div><img src={chick.picture} className="testimg"></img></div>
@@ -18,7 +18,7 @@ function Chickens() {
             <div className='ca'>{chick.prix}€</div>
           </div>
         </div>})}
-    </div></div>
+      </div></div>
     </div>
   )
 }

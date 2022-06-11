@@ -70,6 +70,7 @@ nav{
   justify-content: center;
   color :white ;
 
+
 }
 
 
@@ -105,6 +106,10 @@ nav{
   color :black
 }
 
+.logocrousty{
+  height: 80px;
+  width: 80px;
+}
 /* deuxieme barre */
 .menu{
 
@@ -255,11 +260,13 @@ nav{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  text-decoration: double;
+  font-weight : bold
  
 }
 
 .te{
-  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+  box-shadow: 5px 5px 0.6em gray, -5px -5px 0.6em gray;
   border-radius: 25px 25px 25px 25px ;
   margin-bottom: 20px;
   color: black;
@@ -275,7 +282,7 @@ nav{
 }
 
 .te:hover{
-  box-shadow:5px 5px 0.6em gray, -5px -5px 0.6em gray;
+  box-shadow:5px 5px 0.6em black, -5px -5px 0.6em black;
   
 }
 
@@ -289,13 +296,18 @@ nav{
   border-radius: 25px;
 
 }
+.centertitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* HOme */
 .homeimg{
 width: 100vw;
 height: 80vh;
 border: solid 1px black;
-background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654844263/ocroustycard/2A504749-56BA-411A-9CF4-69AAAE165CF5_xprmhh.jpg);
+background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654847020/ocroustycard/E826E99E-7C27-4332-8E9F-FB17AC7AD2C6_adgkux.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 display: flex ;
@@ -365,5 +377,19 @@ color: white;
   box-shadow: 5px 5px 0.6em gray, -5px -5px 0.6em gray;
 }
 
+/* Horaire */
+.centerhoraire{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: large;
+  flex-direction: column;
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654847020/ocroustycard/E826E99E-7C27-4332-8E9F-FB17AC7AD2C6_adgkux.jpg);
+  color : white
+  
+}
 
 
