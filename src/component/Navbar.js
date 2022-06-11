@@ -20,7 +20,7 @@ function Navbar() {
          <Link to="/" className=" logoposition"><div ><h3><img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654940881/ocroustycard/Croustylogo_skanit.jpg" className="logocrousty"/></h3></div></Link>
      </nav>
 
-     <div className={cliq ? "yes" : "no"} onMouseLeave={()=>setCliq(!leave)}  ><Navinf/></div>
+     <div className={cliq ? "yes" : "no"} onMouseLeave={()=>setCliq(!leave)}  onClick={()=>(!leave)}><Navinf/></div>
      {console.log(leave)}
     
    
