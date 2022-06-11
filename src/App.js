@@ -11,6 +11,7 @@ import Place from './Pages/Place';
 import Carte from './Pages/Carte';
 import Footer from "./component/Footer"
 import Horaires from './Pages/Horaires';
+import Drink from './Pages/Drink'
 
 
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="chickens" element={<Chickens/>}/>
           <Route path="extra" element={<Extras/>}/>
           <Route path="horaire" element={<Horaires/>}/>
+          <Route path="drink" element={<Drink/>}/>
 
             
         </Routes>

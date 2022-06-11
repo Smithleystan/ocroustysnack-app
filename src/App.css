@@ -114,13 +114,13 @@ nav{
 .menu{
 
   background: black;
-  height: 13rem;
+  height: 26rem;
   display: flex;
   justify-content: center;
   color :black;
   gap :1vw;
   width: 100vw;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-top: 1px;
   top :80px;
   left: 1vw;
@@ -183,6 +183,13 @@ nav{
   color : black;
   
   
+}
+
+.imgm5{
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654948393/ocroustycard/F24FAE21-A596-4588-B015-DA3B84A33B4F_ulfazp.jpg);
+  background-size: cover;
+  background-position: center;
+  color : black;
 }
 
 
@@ -390,6 +397,18 @@ color: white;
   background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654847020/ocroustycard/E826E99E-7C27-4332-8E9F-FB17AC7AD2C6_adgkux.jpg);
   color : white
   
+}
+
+/* drink */
+.centerdrink{
+  width: 100vw;
+  height: 100Vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  font-size : large
 }
 
 
