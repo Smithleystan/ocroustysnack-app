@@ -1,3 +1,7 @@
+html{
+  font-size: 100%;
+}
+
 body{
 
   background-color: white;
@@ -18,7 +22,7 @@ a{
 .navbar{
   background-color:red ;
   color : white;
-  border: solid black 1px;
+  border: solid black 1rem;
   position: fixed;
 }
 nav{
@@ -29,8 +33,8 @@ nav{
   list-style: none;
   justify-content: center;
   flex-wrap: wrap;
-  height: 80px;
-  box-shadow: 10px 5px 5px ;
+  height: 6rem;
+  box-shadow: 0px 5px 5px ;
   background-color: black;
   position: sticky;
   top : 0;
@@ -41,12 +45,12 @@ nav{
 .li{
   
   color : white;
-  height: 40px;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 80px;
+  width: 15rem;
+  height: 4rem;
  text-decoration: none;
  
  
@@ -56,6 +60,7 @@ nav{
   background-color: black;
   cursor: pointer;
   box-shadow:5px 5px 0.6em white, -5px -5px 0.6em white;
+  height: 6rem;
 
 }
 .positionnavinf{
@@ -83,7 +88,7 @@ nav{
   display: flex;
   justify-content: center;
   color :black;
-  gap :10px;
+  gap :1rem;
   width: 100vw;
   flex-wrap: nowrap;
   
@@ -107,8 +112,8 @@ nav{
 }
 
 .logocrousty{
-  height: 80px;
-  width: 80px;
+  height: 6rem;
+  width: 8rem;
 }
 /* deuxieme barre */
 .menu{
@@ -122,7 +127,7 @@ nav{
   width: 100vw;
   flex-wrap: wrap;
   margin-top: 1px;
-  top :80px;
+  top :8rem;
   left: 1vw;
   right: 7vw;;
   position : fixed;
@@ -194,11 +199,7 @@ nav{
 }
 
 
-.testimg{
-  width: 150px;
-  height: 145px;
-  border-radius: 0 0 0 25px;
-}
+
 /* pages Menu */
 ------------/* cards */
 
@@ -222,7 +223,6 @@ nav{
   flex-wrap: wrap;
   gap : 10px;
   background-color: rgba(255, 255, 255, 0.521);
-  border-radius: 25px;
   box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
 
   
@@ -258,7 +258,7 @@ nav{
   width: 40rem;
   gap :10px;
   
-  padding: 30px;
+  padding: 3rem;
   
 
 }
@@ -269,7 +269,7 @@ nav{
   justify-content: center;
   flex-wrap: wrap;
   text-decoration: double;
-  font-weight : bold
+  /* font-weight : bold */
  
 }
 
@@ -279,7 +279,7 @@ nav{
   margin-bottom: 20px;
   color: black;
   width: 18vw;
-  height: 220px;
+  height: 22rem;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
@@ -294,11 +294,17 @@ nav{
   
 }
 
+.testimg{
+  width: 18vw;
+  height: 14.5rem;
+  border-radius: 0 0 0 25px;
+}
+
 .title{
   display: flex;
   justify-content: center;
   color : red;
-  margin : 30px;
+  margin : 3rem;
   border :3px solid red; 
   width: 10rem;
   border-radius: 25px;
@@ -357,12 +363,12 @@ color: white;
 }
 
 .plac {
-  width: 250px;
+  width: 25rem;
 }
 
 .burg{
- width: 30px;
- height: 30px;
+ width: 3rem;
+ height: 3rem;
 }
 
 

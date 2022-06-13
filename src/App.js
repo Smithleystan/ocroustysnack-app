@@ -11,7 +11,8 @@ import Place from './Pages/Place';
 import Carte from './Pages/Carte';
 import Footer from "./component/Footer"
 import Horaires from './Pages/Horaires';
-import Drink from './Pages/Drink'
+import Drink from './Pages/Drink';
+
 
 
 
@@ -21,7 +22,7 @@ function App() {
   <Navbar/>
           
         <Routes>
-          <Route path="accueil" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="carte" element={<Carte/>}/>
           <Route path="place" element={<Place/>}/>
           <Route path="sandwitchs" element={<Sandwich/>}/>
@@ -30,6 +31,7 @@ function App() {
           <Route path="extra" element={<Extras/>}/>
           <Route path="horaire" element={<Horaires/>}/>
           <Route path="drink" element={<Drink/>}/>
+          <Route path="route" element={<Carte/>}/>
 
             
         </Routes>

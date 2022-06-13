@@ -18,7 +18,7 @@ function Sandwichfroid() {
         return <div className='te'>
           <div className='ca'><img src={froid.picture} className="testimg"></img></div>
           <div>
-            <div className='ca'>{froid.nom}</div>
+            <div className='ca'><h3>{froid.nom}</h3></div>
             <div className='ca'>seul : {froid.prix}</div>
             <div className='ca'>menu : {froid.pricemenu}</div>
           </div>
@@ -36,7 +36,7 @@ function Sandwichfroid() {
         return <div className='te'>
           <div className="ca"><img src={chaud.picture} className="testimg"></img></div>
           <div>
-          <div className='ca'>{chaud.nom}</div>
+          <div className='ca'><h3>{chaud.nom}</h3></div>
           <div className='ca'>seul : {chaud.prix}</div>
           <div className='ca'>menu : {chaud.pricemenu}</div>
           </div>

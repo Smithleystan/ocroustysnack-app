@@ -17,7 +17,7 @@ function Extras() {
        {return <div className='te'>
         <div className='ca'><img src={ext.picture} className="testimg"></img></div>
         <div>
-          <div className='ca'>{ext.nom}</div>
+          <div className='ca'><h3>{ext.nom}</h3></div>
           <div className='ca'>{ext.prix}€</div>
         </div>
 

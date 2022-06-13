@@ -19,7 +19,7 @@ function Burgapa() {
         return <div className='te'>
         <div className="ca"><img src={burg.picture} className="testimg"></img></div>
         <div>
-        <div className='ca'>{burg.nom}</div>
+        <div className='ca'><h3>{burg.nom}</h3></div>
         <div className='ca'>seul : {burg.prix}€</div>        
         <div className='ca'>menu : {burg.pricemenu}€</div>
         </div>
@@ -36,7 +36,7 @@ function Burgapa() {
         return <div className='te'>
         <div className="ca"><img src={gal.picture} className="testimg"></img></div>
         <div>
-        <div className='ca'>{gal.nom}</div>
+        <div className='ca'><h3>{gal.nom}</h3></div>
         <div className='ca'>seul : {gal.prix}€ </div> 
         <div className='ca'>menu : {gal.pricemenu}€</div>
         </div>
