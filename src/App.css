@@ -168,6 +168,7 @@ a:hover{
   justify-content: center;
   color: black;
   border-radius: 25px;
+  border: 2px solid black;
 }
 
 .imgnav:hover{
@@ -205,7 +206,7 @@ a:hover{
 
 .te{
   box-shadow: 5px 5px 0.6em gray, -5px -5px 0.6em gray;
-  border-radius: 25px 25px 25px 25px ;
+  border-radius: 25px 25px 25px 0 ;
   margin-bottom: 20px;
   color: black;
   width: 14vw;
