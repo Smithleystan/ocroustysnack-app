@@ -9,7 +9,7 @@ function Sandwichfroid() {
   return (
     <>
     <div className="centertitle">
-    <div className='title'><h1>Sandwitch froid</h1> </div>
+    <div className='title'><h1>Sandwich froid</h1> </div>
     </div>
     <hr className="hr"/>
     <div className='supcard'>
@@ -27,7 +27,7 @@ function Sandwichfroid() {
     </div></div>
 
     <div className="centertitle">
-    <div className='title'><h1>Sandwitch chaud</h1> </div>
+    <div className='title'><h1>Sandwich chaud</h1> </div>
     </div>
     <hr className="hr"/>
     <div className='supcard'>
