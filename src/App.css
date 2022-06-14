@@ -18,10 +18,11 @@ body{
   align-items: center;
   gap : 30px;
   border : 1px solid black ;
-  height : 100px;
+  /* height : 100px; */
   background-color: black;
   color: white;
   text-decoration: none;
+  
 }
 
 .logoposition {
@@ -349,3 +350,9 @@ color: white;
 }
 
 
+@media only screen and (max-width: 800px) { 
+  .navcenter{
+    flex-direction: column;
+  }
+  
+}
