@@ -279,21 +279,25 @@ color: white;
 
 
 .plou {
-  width: 42rem;
+  /* width: 42rem;
   text-align: center;
-  align-items: center;
+  align-items: center; */
   order: -1;
-  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
-
-
-
+  /* box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black; */
 }
 
-.plou:hover{
+
+
+
+
+/* .plou:hover{
   
   box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
-}
+} */
 
+.planimg{
+  height: 63vh;
+}
 .plac {
   width: 25rem;
 }
@@ -360,6 +364,9 @@ color: white;
 
   }
   .bref{
+    flex-direction: column;
+  }
+  .plan{
     flex-direction: column;
   }
   

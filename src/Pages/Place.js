@@ -14,7 +14,7 @@ function Place() {
                 59100 ROUBAIX
               </div>
               <div class="plpl plou">
-                <img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654252617/crousty/mapscroustychaud_leheh2.jpg" alt="plan du lieu" />
+                <img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654252617/crousty/mapscroustychaud_leheh2.jpg" alt="plan du lieu" className='planimg' />
               </div>
             </div>
           </main>
