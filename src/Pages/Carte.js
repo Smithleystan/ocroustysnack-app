@@ -5,7 +5,7 @@ function Carte() {
     return (
         <div>
           <hr/>
-          <div className='masterbref'>
+          <div className='brefmaster'>
          <div className='bref'>
             <Link to="../sandwitchs"><div className='imgnav imgm1'><h1>Sandwichs</h1></div></Link>
             <Link to="../burger"><div className='imgnav imgm2'><div><div><h1>Burgers</h1></div><div><h1>&</h1></div><div><h1>Galettes</h1></div></div></div></Link>

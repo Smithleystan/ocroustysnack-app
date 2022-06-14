@@ -136,17 +136,18 @@ a:hover{
 
 .masterbref{
   border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+ 
   width: 100VW;
+  height: 100vh;
+}
+.brefmaster{
   height: 100vh;
 }
 
 
 .bref{
-  width: 100vw;
-  height: 100vh;
+
   border: 1px solid black;
   display: flex;
   justify-content: center;
@@ -352,6 +353,13 @@ color: white;
 
 @media only screen and (max-width: 800px) { 
   .navcenter{
+    flex-direction: column;
+  }
+  .brefmaster{
+    height: auto;
+
+  }
+  .bref{
     flex-direction: column;
   }
   
