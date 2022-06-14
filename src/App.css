@@ -296,8 +296,8 @@ color: white;
 } */
 
 .planimg{
-  width: 63vw;
-  height: 63vh;
+  width: 65vw;
+  height: auto;
 }
 .plac {
   width: 25rem;
