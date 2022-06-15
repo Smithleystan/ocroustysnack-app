@@ -144,18 +144,21 @@ a:hover{
 .brefmaster{
   height: 100vh;
   width: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
 
 .bref{
 
-  border: 1px solid black;
+  
   display: grid;
-  grid-template-columns: 50vw 50vw;
+  grid-template-columns: 40vw 40vw;
+  align-items: center;
   
   gap : 10px;
   background-color: rgba(255, 255, 255, 0.521);
-  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+  
 
   
 }
