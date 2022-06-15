@@ -143,6 +143,7 @@ a:hover{
 }
 .brefmaster{
   height: 100vh;
+  width: auto;
 }
 
 
@@ -262,7 +263,10 @@ align-items: center;
 color: white;
 }
 
-
+.homebutton{
+  display: flex;
+  justify-content: center;
+}
 
 
 /* Place */
@@ -362,6 +366,7 @@ color: white;
   }
   .brefmaster{
     height: auto;
+    width: auto;
 
   }
   .bref{
