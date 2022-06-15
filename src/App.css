@@ -390,11 +390,20 @@ color: white;
   }
   .card{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns:90vw;
   }
   .te{
     width: auto;
     height: auto;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .li{
+    margin-bottom: 10px;
+  }
+  .testimg{
+    /* height: auto;
+    width: ; */
   }
   
 }
