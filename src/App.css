@@ -375,5 +375,12 @@ color: white;
   .plan{
     flex-direction: column;
   }
+  .imgnav:hover{
+    display: block;
+  }
+  a:hover{
+    border: none;
+   color : #7d4f34
+  }
   
 }
