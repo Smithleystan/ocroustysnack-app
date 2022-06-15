@@ -377,6 +377,9 @@ color: white;
   }
   .imgnav:hover{
     display: block;
+    height: 12rem;
+    width: 25rem;
+    box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black ;
   }
   a:hover{
     border: none;
