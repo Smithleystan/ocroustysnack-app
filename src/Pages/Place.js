@@ -4,6 +4,7 @@ function Place() {
     return (
         <div>
           <main>
+          <div className='centerplan'>
             <div class="plan">
               <div class="plpl plac">
                 <h1>Ou nous trouver</h1>
@@ -17,6 +18,7 @@ function Place() {
                 <a href='https://goo.gl/maps/75WqftjYHzWfq4jD6'><img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654252617/crousty/mapscroustychaud_leheh2.jpg" alt="plan du lieu" className='planimg' /></a>
               </div>
             </div>
+          </div>
           </main>
         </div>
       );

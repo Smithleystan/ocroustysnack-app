@@ -383,10 +383,21 @@ color: white;
     display: grid;
     grid-template-columns: max-content;
     grid-template-rows: auto;
+    align-items: center;
   }
   .planimg{
     height: auto;
     width: 92vw;
+  }
+  
+
+  .plou{
+    display: flex;
+    justify-content:center;
+  }
+  .plac{
+    display: flex;
+    justify-content: center;
   }
 
   .imgnav:hover{
