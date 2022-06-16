@@ -36,11 +36,14 @@ body{
 
 a{
   text-decoration: none;
-  color : white
+  
 }
 
-a:hover{
-  border : 3px solid white
+.li{
+ color: white;
+}
+.li:hover{
+ /* background-color: white; */
 }
 
 
@@ -274,7 +277,8 @@ color: white;
 /* Place */
 
 .plan {
-  display: flex;
+  display: grid;
+  grid-template-columns: 40vw 40vw;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
@@ -302,7 +306,7 @@ color: white;
 } */
 
 .planimg{
-  width: 65vw;
+  width: 45vw;
   height: auto;
 }
 .plac {
@@ -376,8 +380,15 @@ color: white;
     grid-template-columns: auto;
   }
   .plan{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: auto;
   }
+  .planimg{
+    height: auto;
+    width: 92vw;
+  }
+
   .imgnav:hover{
     display: block;
     height: 12rem;
@@ -410,5 +421,6 @@ color: white;
     width: ; */
     width: 90vw;
   }
+  
   
 }

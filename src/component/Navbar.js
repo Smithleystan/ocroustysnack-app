@@ -13,7 +13,7 @@ function Navbar() {
       <>
     <nav className="nav">
       <div className="navcenter">
-          <Link to="/"><div className="li"><h3>Accueil</h3></div></Link>
+          <Link to="/" className="li"><div ><h3>Accueil</h3></div></Link>
           <Link to="carte"><div className="li" onClick={()=>setCliq(!cliq)}onMouseEnter={()=>setCliq(!cliq)}><h3>Cartes</h3></div></Link>
           <Link to="horaire"><div className="li"><h3>Horaires</h3></div></Link>
           <Link to="place"><div className="li"><h3>Nous trouver</h3></div></Link>
