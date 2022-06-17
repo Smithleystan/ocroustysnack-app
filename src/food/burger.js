@@ -17,7 +17,7 @@
       ]
 
       const chickens = [
-        {nom : "Nuggerts",  prix : "4.00" ,  pricemenu:  "5.50", picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654789968/ocroustycard/1BA314F1-4C8F-4823-AE9A-6F2A6172C488_c92qnp.jpg'},
+        {nom : "Nuggets",  prix : "4.00" ,  pricemenu:  "5.50", picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654789968/ocroustycard/1BA314F1-4C8F-4823-AE9A-6F2A6172C488_c92qnp.jpg'},
         {nom : "Tenders",  prix : "7.00" ,  pricemenu:  "5.50" ,picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654789968/ocroustycard/1BA314F1-4C8F-4823-AE9A-6F2A6172C488_c92qnp.jpg'},
         {nom : "Wings",  prix : "6.00" ,  pricemenu:  "5.50", picture:'https://res.cloudinary.com/dsx6152nt/image/upload/v1654789967/ocroustycard/CB564665-BC1D-4F0B-9604-A94D26C52865_dum5vm.jpg'},
       ]
@@ -48,7 +48,7 @@
         {nom : "Viande Haché",  prix : "3.50" ,  pricemenu:  "5.50", picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654819432/ocroustycard/56C9BD59-5855-4410-8B1D-EFDD06865DD0_d05tgy.png'},
         {nom : "Steack Haché",  prix : "3.50" ,  pricemenu:  "5.50" , picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654819432/ocroustycard/56C9BD59-5855-4410-8B1D-EFDD06865DD0_d05tgy.png'},
         {nom : "Cordon Bleu",  prix : "3.50" ,  pricemenu:  "5.50" , picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654819432/ocroustycard/56C9BD59-5855-4410-8B1D-EFDD06865DD0_d05tgy.png'},
-        {nom : "Mergues",  prix : "4.00" ,  pricemenu:  "5.50" , picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654819432/ocroustycard/56C9BD59-5855-4410-8B1D-EFDD06865DD0_d05tgy.png'},
+        {nom : "Merguez",  prix : "4.00" ,  pricemenu:  "5.50" , picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654819432/ocroustycard/56C9BD59-5855-4410-8B1D-EFDD06865DD0_d05tgy.png'},
         {nom : "Dinde Marinée",  prix : "4.00" ,  pricemenu:  "5.50", picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654819432/ocroustycard/56C9BD59-5855-4410-8B1D-EFDD06865DD0_d05tgy.png'},
         {nom : "Kefta",  prix : "4.00" ,  pricemenu:  "5.50" , picture : 'https://res.cloudinary.com/dsx6152nt/image/upload/v1654819432/ocroustycard/56C9BD59-5855-4410-8B1D-EFDD06865DD0_d05tgy.png'},
       ]

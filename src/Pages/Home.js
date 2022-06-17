@@ -12,7 +12,7 @@ function Home() {
           <h3>La meilleure viennoiserie</h3>
         </div>
         <div className='homebutton'>  
-          <Link to="carte">La carte</Link>
+          <Link to="carte" className="li">La carte</Link>
         </div>
       </div>
     </div>
