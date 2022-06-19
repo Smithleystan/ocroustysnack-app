@@ -44,6 +44,11 @@ a{
 }
 .li:hover{
  /* background-color: white; */
+ color: #7d4f34;
+}
+
+.navcenterhover{
+  color:#7d4f34
 }
 
 
