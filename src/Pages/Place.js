@@ -15,7 +15,7 @@ function Place() {
                 59100 ROUBAIX
               </div>
               <div class="plpl plou">
-                <a href='https://goo.gl/maps/75WqftjYHzWfq4jD6'><img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654252617/crousty/mapscroustychaud_leheh2.jpg" alt="plan du lieu" className='planimg' /></a>
+                <a href='https://goo.gl/maps/75WqftjYHzWfq4jD6' target="blank"><img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654252617/crousty/mapscroustychaud_leheh2.jpg" alt="plan du lieu" className='planimg' /></a>
               </div>
             </div>
           </div>
