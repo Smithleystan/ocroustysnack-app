@@ -375,7 +375,13 @@ color: white;
 @media only screen and (max-width: 800px) { 
   .navcenter{
     flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: -360px ;
+
   }
+
   .brefmaster{
     height: auto;
     width: auto;
