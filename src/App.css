@@ -472,6 +472,17 @@ color: white;
   .btncenter{
     display : flex;
     justify-content: center;
+    position: sticky;
+    
+  }
+  .btn{
+    position: sticky;
+  }
+  .nav{
+    position: fixed;}
+  .hi{
+    top : 1rem;
+    position: sticky;
   }
   
 }

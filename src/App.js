@@ -19,6 +19,7 @@ import Drink from './Pages/Drink';
 function App() {
   return (
    <>
+   
   <Navbar/>
           
         <Routes>
