@@ -6,7 +6,7 @@ import {useState} from "react"
 
 
 function Navbar() {
- const [hid,setHid] = useState(true)
+ const [hid,setHid] = useState(false)
  const hidden = () => setHid(!hid)
 
   return (
