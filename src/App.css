@@ -477,6 +477,8 @@ color: white;
   }
   .btn{
     position: sticky;
+    background-color: white;
+    width: 100vw;
   }
   .nav{
     position: fixed;}

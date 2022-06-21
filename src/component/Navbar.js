@@ -7,13 +7,14 @@ import {useState} from "react"
 
 function Navbar() {
  const [hid,setHid] = useState(true)
+ const hidden = () => setHid(!hid)
 
   return (
       <>
     <nav className="nav">
     <div className='btn'>
    <div className='btncenter'>
-  <img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1655764496/ocroustycard/aligner-justifier_qgdx5j.png" className="btnbarre" onClick={()=> setHid(!hid)}></img>
+  <img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1655764496/ocroustycard/aligner-justifier_qgdx5j.png" className="btnbarre" onClick={hidden}></img>
   </div>
   </div>
       <div className={hid? "navcenter " : "naavcenter"}>

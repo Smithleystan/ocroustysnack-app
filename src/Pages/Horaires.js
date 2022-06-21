@@ -1,5 +1,6 @@
 import React from 'react'
 import { horaires } from '../horaire/horaire'
+import Navbar from '../component/Navbar'
 
 function Horaires() {
 

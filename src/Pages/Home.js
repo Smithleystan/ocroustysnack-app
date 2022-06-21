@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from '../component/Navbar'
 
 function Home() {
   return (
+    <>
     <div className='homeimg'>
       
   
@@ -16,6 +18,7 @@ function Home() {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
