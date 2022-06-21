@@ -14,7 +14,7 @@ function Home() {
           <h3>La meilleure viennoiserie</h3>
         </div>
         <div className='homebutton'>  
-          <Link to="carte" className="">La carte</Link>
+          <Link to="carte" className="lacarte">La carte</Link>
         </div>
       </div>
     </div>
