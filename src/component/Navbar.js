@@ -6,19 +6,17 @@ import {useState} from "react"
 
 
 function Navbar() {
- const [cliq, setCliq] = useState(true)
- const [leave, setLeave] = useState (false)
-
+ const [hid,setHid] = useState(true)
 
   return (
       <>
     <nav className="nav">
     <div className='btn'>
    <div className='btncenter'>
-  <img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1655764496/ocroustycard/aligner-justifier_qgdx5j.png" className="btnbarre"></img>
+  <img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1655764496/ocroustycard/aligner-justifier_qgdx5j.png" className="btnbarre" onClick={()=> setHid(!hid)}></img>
   </div>
   </div>
-      <div className="navcenter ">
+      <div className={hid? "navcenter " : "naavcenter"}>
           <Link to="/" className="li"><div ><h3>Accueil</h3></div></Link>
           <Link to="carte"  className="li"><div ><h3>Cartes</h3></div></Link>
           <Link to="horaire" className="li"><div ><h3>Horaires</h3></div></Link>
