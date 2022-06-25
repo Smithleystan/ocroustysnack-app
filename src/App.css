@@ -484,3 +484,17 @@ color: white;
   }
   
 }
+
+@media only screen and (max-width: 375px){
+
+  .imgnav{
+    width: 23rem;
+  }
+}
+
+@media only screen and (max-width: 390px){
+
+  .imgnav{
+    width: 23rem;
+  }
+}
