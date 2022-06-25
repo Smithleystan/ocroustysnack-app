@@ -160,6 +160,9 @@ a{
   width: auto;
   display: flex;
   justify-content: space-around;
+  
+  background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654847020/ocroustycard/E826E99E-7C27-4332-8E9F-FB17AC7AD2C6_adgkux.jpg);
+
 }
 
 
@@ -291,7 +294,13 @@ color: white;
 
 
 /* Place */
-
+.centerplan{
+  /* background-image: url(https://res.cloudinary.com/dsx6152nt/image/upload/v1654847020/ocroustycard/E826E99E-7C27-4332-8E9F-FB17AC7AD2C6_adgkux.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  background-color: black;
+  color: white;
+}
 .plan {
   display: grid;
   grid-template-columns: 40vw 40vw;
@@ -383,31 +392,20 @@ color: white;
 
 
 @media only screen and (max-width: 800px) { 
-  .navcenter{
-    flex-direction: column;
-    
+.navcenter{
+  flex-direction: column;
+}
 
-  }
-
-  .naavcenter{
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    left: -440px ;
-  }
-
-  .naaavcenter{
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    left: 0px ;
-
-    
-  }
+  
+.bref{
+    display: grid;
+    grid-template-columns: auto;
+ }
 
   .brefmaster{
     height: auto;
     width: auto;
+    grid-template-columns: auto;
     /* margin: 10px 0; */
 
   }
@@ -477,13 +475,9 @@ color: white;
     position: sticky;
     
   }
-  .btn{
-    position: sticky;
-    background-color: white;
-    width: 100vw;
-  }
-  .nav{
-    position: fixed;}
+ 
+  
+
   .hi{
     top : 1rem;
     position: sticky;

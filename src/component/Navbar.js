@@ -12,11 +12,11 @@ function Navbar() {
   return (
       <>
     <nav className="nav">
-    <div className='btn'>
+    {/* <div className='btn'>
    <div className='btncenter'>
   <img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1655764496/ocroustycard/aligner-justifier_qgdx5j.png" className="btnbarre" ></img>
   </div>
-  </div>
+  </div> */}
       <div className="navcenter" >
           <Link to="/" className="li"><div ><h3>Accueil</h3></div></Link>
           <Link to="carte"  className="li"><div ><h3>Cartes</h3></div></Link>
