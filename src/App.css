@@ -498,3 +498,33 @@ color: white;
     width: 23rem;
   }
 }
+@media only screen and (max-width: 393px){
+
+  .imgnav{
+    width: 23rem;
+  }
+}
+@media only screen and (max-width: 360px){
+
+  .imgnav{
+    width: 23rem;
+  }
+}
+
+@media only screen and (max-width: 412px){
+
+  .imgnav{
+    width: 24rem;
+  }
+}
+@media only screen and (max-width: 768px){
+
+  .imgnav{
+    width: 47rem;
+  }
+  .bref{
+    display: grid;
+    grid-template-columns: auto;
+ }
+
+}
