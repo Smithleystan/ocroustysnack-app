@@ -169,7 +169,8 @@ a{
   display: grid;
   grid-template-columns: 40vw 40vw;
   align-items: center;
-  
+  justify-items: center;
+  align-items: center;
   gap : 10px;
   background-color: rgba(255, 255, 255, 0.521);
   
@@ -410,9 +411,7 @@ color: white;
     /* margin: 10px 0; */
 
   }
-  .bref{
-    grid-template-columns: auto;
-  }
+ 
   .plan{
     display: grid;
     grid-template-columns: max-content;
