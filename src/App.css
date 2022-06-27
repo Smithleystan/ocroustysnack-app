@@ -432,12 +432,13 @@ color: white;
   }
   .imgnav{
     border-radius: 0 0 0 0;
+    width: 24.5rem;
   }
 
   .imgnav:hover{
     display: block;
     height: 12rem;
-    width: 25rem;
+    width: 24.5rem;
     transition: all 0.4s;
     display: flex;
     align-items: center;
@@ -451,6 +452,7 @@ color: white;
   .card{
     display: grid;
     grid-template-columns:90vw;
+    width: 0rem;
   }
   .te{
     width: auto;
@@ -483,6 +485,9 @@ color: white;
     position: sticky;
   }
   
+  .homeimg{
+    width: 99.5vw;
+  }
 }
 
 @media only screen and (max-width: 375px){
@@ -520,7 +525,7 @@ color: white;
 @media only screen and (max-width: 768px){
 
   .imgnav{
-    width: 47rem;
+    /* width: 47rem; */
   }
   .bref{
     display: grid;
