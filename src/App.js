@@ -17,9 +17,13 @@ import Drink from './Pages/Drink';
 
 
 function App() {
+
+
+
   return (
    <>
-   
+   {/* <div className='responsivebtn'><img src='https://res.cloudinary.com/dsx6152nt/image/upload/v1655764496/ocroustycard/aligner-justifier_qgdx5j.png' className='responsivebutton'></img></div> */}
+   {/* <div className='normalnav'><Navbar/></div> */}
    <Navbar/>
           
         <Routes>

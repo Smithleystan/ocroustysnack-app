@@ -12,6 +12,9 @@ body{
   
 }
 /* NAVBAR */
+.responsnav{
+  display: none;
+  }
 .navcenter{
   display : flex;
   justify-content: center;
@@ -394,8 +397,22 @@ color: white;
 
 
 @media only screen and (max-width: 414px) and (min-width: 412px) { 
+  .btncenter{
+    display : flex;
+    justify-content: center;
+    position: sticky;
+    width: 99vw;
+  }
 .navcenter{
   flex-direction: column;
+  width: 99vw;
+  position: fixed;
+
+
+}
+
+.navcenterHidden{
+  display: none;
 }
 
   
@@ -474,13 +491,7 @@ color: white;
   .brefmaster{
     background-color: black;
   }
-  .btncenter{
-    display : flex;
-    justify-content: center;
-    position: sticky;
-    
-  }
- 
+  
   
 
   .hi{
@@ -494,432 +505,434 @@ color: white;
 }
 
 @media only screen and (max-width: 375px) {
+  .btncenter{
+    display : flex;
+    justify-content: center;
+    position: sticky;
+    width: 99vw;
+  }
+.navcenter{
+  flex-direction: column;
+  width: 99vw;
+  position: fixed;
 
-  .imgnav{
-    width: 23rem;}
+
+}
+
+.navcenterHidden{
+  display: none;
+}
+
   
-    .navcenter{
-      flex-direction: column;
-    }
-    
-      
-    .bref{
-        display: grid;
-        grid-template-columns: auto;
-     }
-    
-      .brefmaster{
-        height: auto;
-        width: auto;
-        grid-template-columns: auto;
-        /* margin: 10px 0; */
-    
-      }
-     
-      .plan{
-        display: grid;
-        grid-template-columns: max-content;
-        grid-template-rows: auto;
-        align-items: center;
-      }
-      .planimg{
-        height: auto;
-        width: 92vw;
-      }
-      
-    
-      .plou{
-        display: flex;
-        justify-content:center;
-      }
-      .plac{
-        display: flex;
-        justify-content: center;
-        width: 22rem;
-      }
-      .imgnav{
-        border-radius: 0 0 0 0;
-        width: 23rem;
-      }
-    
-      .imgnav:hover{
-        display: block;
-        height: 12rem;
-        width: 23rem;
-        transition: all 0.4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid black;
-      }
-      a:hover{
-        border: none;
-       color : #7d4f34
-      }
-      .card{
-        display: grid;
-        grid-template-columns:90vw;
-        width: 0rem;
-      }
-      .te{
-        width: auto;
-        height: auto;
-        border-radius: 0;
-        overflow: hidden;
-      }
-      .li{
-        margin-bottom: 10px;
-      }
-      .testimg{
-        /* height: auto;
-        width: ; */
-        width: 90vw;
-        border-radius: 0;
+.bref{
+    display: grid;
+    grid-template-columns: auto;
+ }
 
-      }
-      .brefmaster{
-        background-color: black;
-      }
-      .btncenter{
-        display : flex;
-        justify-content: center;
-        position: sticky;
-        
-      }
-     
-      
-    
-      .hi{
-        top : 1rem;
-        position: sticky;
-      }
-      
-      .homeimg{
-        width: 99.5vw;
-      }
+  .brefmaster{
+    height: auto;
+    width: auto;
+    grid-template-columns: auto;
+    /* margin: 10px 0; */
+
+  }
+ 
+  .plan{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .planimg{
+    height: auto;
+    width: 92vw;
+  }
+  
+
+  .plou{
+    display: flex;
+    justify-content:center;
+  }
+  .plac{
+    display: flex;
+    justify-content: center;
+  }
+  .imgnav{
+    border-radius: 0 0 0 0;
+    width: 24.5rem;
+  }
+
+  .imgnav:hover{
+    display: block;
+    height: 12rem;
+    width: 24.5rem;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  a:hover{
+    border: none;
+   color : #7d4f34
+  }
+  .card{
+    display: grid;
+    grid-template-columns:90vw;
+    width: 0rem;
+  }
+  .te{
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .li{
+    margin-bottom: 10px;
+  }
+  .testimg{
+    /* height: auto;
+    width: ; */
+    width: 90vw;
+    border-radius: 0;
+  }
+  .brefmaster{
+    background-color: black;
+  }
+  
+  
+
+  .hi{
+    top : 1rem;
+    position: sticky;
+  }
+  
+  .homeimg{
+    width: 99.5vw;
+  }
 }
 
   @media only screen and (max-width: 390px){
-
-    .imgnav{
-      width: 23rem;}
-    
-      .navcenter{
-        flex-direction: column;
-      }
-      
-        
-      .bref{
-          display: grid;
-          grid-template-columns: auto;
-       }
-      
-        .brefmaster{
-          height: auto;
-          width: auto;
-          grid-template-columns: auto;
-          /* margin: 10px 0; */
-      
-        }
-       
-        .plan{
-          display: grid;
-          grid-template-columns: max-content;
-          grid-template-rows: auto;
-          align-items: center;
-        }
-        .planimg{
-          height: auto;
-          width: 92vw;
-        }
-        
-      
-        .plou{
-          display: flex;
-          justify-content:center;
-        }
-        .plac{
-          display: flex;
-          justify-content: center;
-          width: 22rem;
-        }
-        .imgnav{
-          border-radius: 0 0 0 0;
-          width: 23rem;
-        }
-      
-        .imgnav:hover{
-          display: block;
-          height: 12rem;
-          width: 23rem;
-          transition: all 0.4s;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          border: 2px solid black;
-        }
-        a:hover{
-          border: none;
-         color : #7d4f34
-        }
-        .card{
-          display: grid;
-          grid-template-columns:90vw;
-          width: 0rem;
-        }
-        .te{
-          width: auto;
-          height: auto;
-          border-radius: 0;
-          overflow: hidden;
-        }
-        .li{
-          margin-bottom: 10px;
-        }
-        .testimg{
-          /* height: auto;
-          width: ; */
-          width: 90vw;
-          border-radius: 0;
-
-        }
-        .brefmaster{
-          background-color: black;
-        }
-        .btncenter{
-          display : flex;
-          justify-content: center;
-          position: sticky;
-          
-        }
-       
-        
-      
-        .hi{
-          top : 1rem;
-          position: sticky;
-        }
-        
-        .homeimg{
-          width: 99.5vw;
-        }
-}
- /* @media only screen and (max-width: 390px){
-
-  .imgnav{
-    width: 23rem;
-  }
-} */
-@media only screen and (max-width: 393px){
-
-  .imgnav{
-    width: 23rem;}
+    .btncenter{
+      display : flex;
+      justify-content: center;
+      position: sticky;
+      width: 99vw;
+    }
+  .navcenter{
+    flex-direction: column;
+    width: 99vw;
+    position: fixed;
   
-    .navcenter{
-      flex-direction: column;
+  
+  }
+  
+  .navcenterHidden{
+    display: none;
+  }
+  
+    
+  .bref{
+      display: grid;
+      grid-template-columns: auto;
+   }
+  
+    .brefmaster{
+      height: auto;
+      width: auto;
+      grid-template-columns: auto;
+      /* margin: 10px 0; */
+  
+    }
+   
+    .plan{
+      display: grid;
+      grid-template-columns: max-content;
+      grid-template-rows: auto;
+      align-items: center;
+    }
+    .planimg{
+      height: auto;
+      width: 92vw;
     }
     
-      
-    .bref{
-        display: grid;
-        grid-template-columns: auto;
-     }
+  
+    .plou{
+      display: flex;
+      justify-content:center;
+    }
+    .plac{
+      display: flex;
+      justify-content: center;
+    }
+    .imgnav{
+      border-radius: 0 0 0 0;
+      width: 24.5rem;
+    }
+  
+    .imgnav:hover{
+      display: block;
+      height: 12rem;
+      width: 24.5rem;
+      transition: all 0.4s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid black;
+    }
+    a:hover{
+      border: none;
+     color : #7d4f34
+    }
+    .card{
+      display: grid;
+      grid-template-columns:90vw;
+      width: 0rem;
+    }
+    .te{
+      width: auto;
+      height: auto;
+      border-radius: 0;
+      overflow: hidden;
+    }
+    .li{
+      margin-bottom: 10px;
+    }
+    .testimg{
+      /* height: auto;
+      width: ; */
+      width: 90vw;
+      border-radius: 0;
+    }
+    .brefmaster{
+      background-color: black;
+    }
     
-      .brefmaster{
-        height: auto;
-        width: auto;
-        grid-template-columns: auto;
-        /* margin: 10px 0; */
     
-      }
-     
-      .plan{
-        display: grid;
-        grid-template-columns: max-content;
-        grid-template-rows: auto;
-        align-items: center;
-      }
-      .planimg{
-        height: auto;
-        width: 92vw;
-      }
-      
+  
+    .hi{
+      top : 1rem;
+      position: sticky;
+    }
     
-      .plou{
-        display: flex;
-        justify-content:center;
-      }
-      .plac{
-        display: flex;
-        justify-content: center;
-        width: 22rem;
-      }
-      .imgnav{
-        border-radius: 0 0 0 0;
-        width: 23rem;
-      }
-    
-      .imgnav:hover{
-        display: block;
-        height: 12rem;
-        width: 23rem;
-        transition: all 0.4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid black;
-      }
-      a:hover{
-        border: none;
-       color : #7d4f34
-      }
-      .card{
-        display: grid;
-        grid-template-columns:90vw;
-        width: 0rem;
-      }
-      .te{
-        width: auto;
-        height: auto;
-        border-radius: 0;
-        overflow: hidden;
-      }
-      .li{
-        margin-bottom: 10px;
-      }
-      .testimg{
-        /* height: auto;
-        width: ; */
-        width: 90vw;
-        border-radius: 0;
+    .homeimg{
+      width: 99.5vw;
+    }
+  }
+@media only screen and (max-width: 393px){
+  .btncenter{
+    display : flex;
+    justify-content: center;
+    position: sticky;
+    width: 99vw;
+  }
+.navcenter{
+  flex-direction: column;
+  width: 99vw;
+  position: fixed;
 
-      }
-      .brefmaster{
-        background-color: black;
-      }
-      .btncenter{
-        display : flex;
-        justify-content: center;
-        position: sticky;
-        
-      }
-     
-      
-    
-      .hi{
-        top : 1rem;
-        position: sticky;
-      }
-      
-      .homeimg{
-        width: 99.5vw;
-      }
+
+}
+
+.navcenterHidden{
+  display: none;
+}
+
+  
+.bref{
+    display: grid;
+    grid-template-columns: auto;
+ }
+
+  .brefmaster{
+    height: auto;
+    width: auto;
+    grid-template-columns: auto;
+    /* margin: 10px 0; */
+
+  }
+ 
+  .plan{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .planimg{
+    height: auto;
+    width: 92vw;
+  }
+  
+
+  .plou{
+    display: flex;
+    justify-content:center;
+  }
+  .plac{
+    display: flex;
+    justify-content: center;
+  }
+  .imgnav{
+    border-radius: 0 0 0 0;
+    width: 24.5rem;
+  }
+
+  .imgnav:hover{
+    display: block;
+    height: 12rem;
+    width: 24.5rem;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  a:hover{
+    border: none;
+   color : #7d4f34
+  }
+  .card{
+    display: grid;
+    grid-template-columns:90vw;
+    width: 0rem;
+  }
+  .te{
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .li{
+    margin-bottom: 10px;
+  }
+  .testimg{
+    /* height: auto;
+    width: ; */
+    width: 90vw;
+    border-radius: 0;
+  }
+  .brefmaster{
+    background-color: black;
+  }
+  
+  
+
+  .hi{
+    top : 1rem;
+    position: sticky;
+  }
+  
+  .homeimg{
+    width: 99.5vw;
+  }
 }
  @media only screen and (max-width: 360px){ 
-  .imgnav{
-    width: 23rem;}
-  
-    .navcenter{
-      flex-direction: column;
-    }
-    
-      
-    .bref{
-        display: grid;
-        grid-template-columns: auto;
-     }
-    
-      .brefmaster{
-        height: auto;
-        width: auto;
-        grid-template-columns: auto;
-        /* margin: 10px 0; */
-    
-      }
-     
-      .plan{
-        display: grid;
-        grid-template-columns: max-content;
-        grid-template-rows: auto;
-        align-items: center;
-      }
-      .planimg{
-        height: auto;
-        width: 92vw;
-      }
-      
-    
-      .plou{
-        display: flex;
-        justify-content:center;
-      }
-      .plac{
-        display: flex;
-        justify-content: center;
-        width: 22rem;
-      }
-      .imgnav{
-        border-radius: 0 0 0 0;
-        width: 22rem;
-      }
-    
-      .imgnav:hover{
-        display: block;
-        height: 12rem;
-        width: 23rem;
-        transition: all 0.4s;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid black;
-      }
-      a:hover{
-        border: none;
-       color : #7d4f34
-      }
-      .card{
-        display: grid;
-        grid-template-columns:90vw;
-        width: 0rem;
-      }
-      .te{
-        width: auto;
-        height: auto;
-        border-radius: 0;
-        overflow: hidden;
-      }
-      .li{
-        margin-bottom: 10px;
-      }
-      .testimg{
-        /* height: auto;
-        width: ; */
-        width: 90vw;
-        border-radius: 0;
+  .btncenter{
+    display : flex;
+    justify-content: center;
+    position: sticky;
+    width: 99vw;
+  }
+.navcenter{
+  flex-direction: column;
+  width: 99vw;
+  position: fixed;
 
-      }
-      .brefmaster{
-        background-color: black;
-      }
-      .btncenter{
-        display : flex;
-        justify-content: center;
-        position: sticky;
-        
-      }
-     
-      
-    
-      .hi{
-        top : 1rem;
-        position: sticky;
-      }
-      
-      .homeimg{
-        width: 99.5vw;
-      }
+
 }
 
+.navcenterHidden{
+  display: none;
+}
+
+  
+.bref{
+    display: grid;
+    grid-template-columns: auto;
+ }
+
+  .brefmaster{
+    height: auto;
+    width: auto;
+    grid-template-columns: auto;
+    /* margin: 10px 0; */
+
+  }
+ 
+  .plan{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .planimg{
+    height: auto;
+    width: 92vw;
+  }
+  
+
+  .plou{
+    display: flex;
+    justify-content:center;
+  }
+  .plac{
+    display: flex;
+    justify-content: center;
+  }
+  .imgnav{
+    border-radius: 0 0 0 0;
+    width: 24.5rem;
+  }
+
+  .imgnav:hover{
+    display: block;
+    height: 12rem;
+    width: 24.5rem;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  a:hover{
+    border: none;
+   color : #7d4f34
+  }
+  .card{
+    display: grid;
+    grid-template-columns:90vw;
+    width: 0rem;
+  }
+  .te{
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .li{
+    margin-bottom: 10px;
+  }
+  .testimg{
+    /* height: auto;
+    width: ; */
+    width: 90vw;
+    border-radius: 0;
+  }
+  .brefmaster{
+    background-color: black;
+  }
+  
+  
+
+  .hi{
+    top : 1rem;
+    position: sticky;
+  }
+  
+  .homeimg{
+    width: 99.5vw;
+  }
+}
 @media only screen and (max-width: 820px) and (min-width : 819px){
   .bref{
     grid-template-columns: 300px 300px;
