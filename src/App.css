@@ -207,11 +207,12 @@ a{
   justify-content: center;
 }
 .card{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
   justify-content:  space-evenly;
   flex-wrap: wrap;
   width: 40rem;
-  gap :10px;
+  gap :px;
   
   padding: 3rem;
   
