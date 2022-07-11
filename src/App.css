@@ -430,7 +430,7 @@ color: white;
   width: 100vw;
   height: 100vh;
   position: fixed;
-  transition: all 0.4s ease-out 0.4s;
+  transition: all 0.4s ;
   
 }
 
