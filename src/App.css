@@ -170,7 +170,7 @@ a{
 
   
   display: grid;
-  grid-template-columns: 40vw 40vw;
+  grid-template-columns: 32vw 32vw;
   align-items: center;
   justify-items: center;
   align-items: center;
