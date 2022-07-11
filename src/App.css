@@ -408,25 +408,39 @@ color: white;
 
 
 @media only screen and (max-width: 414px) and (min-width: 412px) { 
+  /* body{
+    padding-top: 3rem;
+  } */
+
+  .left{
+    left : 0;
+    /* transition: all 0.1s; */
+  }
   .btncenter{
     display : flex;
     justify-content: center;
-    position: sticky;
-    width: 99vw;
+    top : 0px;
+    width: 100vw;
+    background-color: white;
+    height: 3rem;
+    position: fixed;
   }
 .navcenter{
   flex-direction: column;
   width: 100vw;
   height: 100vh;
   position: fixed;
-  transition: all 0.8s ease-out 0.8s;
-
-
+  transition: all 0.4s ease-out 0.4s;
+  
 }
 
 .navcenterHidden{
   left : -500px;
-  transition: all 0.8s ease-out 0.8s;
+  /* transition: all 0.4s ease-out 0.4s; */
+}
+
+.brefmaster{
+  background-color: black;
 }
 
   
@@ -439,6 +453,7 @@ color: white;
     height: auto;
     width: auto;
     grid-template-columns: auto;
+    padding-top: 3rem;
     /* margin: 10px 0; */
 
   }
@@ -513,6 +528,7 @@ color: white;
   
   .homeimg{
     width: 99.5vw;
+   
   }
 }
 
