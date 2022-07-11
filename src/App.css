@@ -253,6 +253,7 @@ a{
 .testimg{
   width: 14vw;
   height: 14.5rem;
+  border-radius: 0 25px 0 0;
 }
 
 .title{
