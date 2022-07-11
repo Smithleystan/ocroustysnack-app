@@ -1,4 +1,3 @@
-import Navinf from "./Navinf"
 import "../App.css"
 import {Link} from "react-router-dom"
 import {useState} from "react"
@@ -27,14 +26,6 @@ function Navbar() {
           <Link to="/" className=" logoposition"><div onClick={btn} ><h3><img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654940881/ocroustycard/Croustylogo_skanit.jpg" className="logocrousty"/></h3></div></Link>
       </div>
      </nav>
-
-     {/* <div className={cliq ? "yes" : "no"} onMouseLeave={()=>setCliq(!leave)}  onClick={()=>(!leave)}><Navinf/></div> */}
-     
-    
-   
-     
-
-     
    
     </>
   )
