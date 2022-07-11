@@ -469,6 +469,7 @@ color: white;
     /* height: auto;
     width: ; */
     width: 90vw;
+    border-radius: 0;
   }
   .brefmaster{
     background-color: black;
@@ -573,6 +574,8 @@ color: white;
         /* height: auto;
         width: ; */
         width: 90vw;
+        border-radius: 0;
+
       }
       .brefmaster{
         background-color: black;
@@ -677,6 +680,8 @@ color: white;
           /* height: auto;
           width: ; */
           width: 90vw;
+          border-radius: 0;
+
         }
         .brefmaster{
           background-color: black;
@@ -786,6 +791,8 @@ color: white;
         /* height: auto;
         width: ; */
         width: 90vw;
+        border-radius: 0;
+
       }
       .brefmaster{
         background-color: black;
@@ -888,6 +895,8 @@ color: white;
         /* height: auto;
         width: ; */
         width: 90vw;
+        border-radius: 0;
+
       }
       .brefmaster{
         background-color: black;
