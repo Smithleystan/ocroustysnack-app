@@ -5,7 +5,7 @@ function Chickens() {
   const img = "https://res.cloudinary.com/dsx6152nt/image/upload/v1654184436/cook/burger_vurms5.png"
 
   return (
-    <div>
+    <div className='heightchickens'>
          <div className='centertitle'><div className='title'><h1>Chickens</h1></div></div>
          <hr className="hr"/>
      <div className='supcard'>

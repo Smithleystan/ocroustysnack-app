@@ -21,6 +21,8 @@ body{
 }
 /* NAVBAR */
 
+
+
 .croustyetbtn{
   display: none;
 }
@@ -290,6 +292,10 @@ a{
   align-items: center;
 }
 
+.heightchickens{
+  height: 90vh;
+}
+
 /* HOme */
 .lacarte{
   color: white;
@@ -409,6 +415,14 @@ color: white;
   font-weight: bold;
   font-size : large
 }
+
+@media only screen and (max-width : 2000px) and (min-width : 415px){
+  .end{
+    display: none;
+  }
+}
+
+
 @media only screen and (max-width : 414px) {
   /* body{
     padding-top: 4rem;
