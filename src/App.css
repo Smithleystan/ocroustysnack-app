@@ -418,12 +418,13 @@ color: white;
   }
   .btncenter{
     display : flex;
-    justify-content: center;
+    justify-content: start;
     top : 0px;
     width: 100vw;
     background-color: white;
     height: 3rem;
     position: fixed;
+    align-items: center;
   }
 .navcenter{
   flex-direction: column;
