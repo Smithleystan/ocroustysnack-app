@@ -415,15 +415,7 @@ color: white;
 
   }
    */
-   .end{
-    color : white;
-    position: relative;
-    left :170px;
-    top :-200px;
-    font-size: xx-large
-    ;
-    font-weight: bold;
-   }
+  
 
    .end:hover{color: white;}
 }
@@ -433,6 +425,15 @@ color: white;
     padding-top: 3rem;
   } */
   
+  .end{
+    color : white;
+    position: absolute;
+    left :376px;
+    top :0;
+    font-size: xx-large
+    ;
+    font-weight: bold;
+   }
 
   
   .croustyetbtn{
@@ -577,6 +578,16 @@ color: white;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 375px) {
+
+  .end{
+    color : white;
+    position: absolute;
+    left :340px;
+    top :0;
+    font-size: xx-large
+    ;
+    font-weight: bold;
+   }
   
   
   .croustyetbtn{
@@ -723,7 +734,16 @@ color: white;
 
   @media only screen and (min-width : 390px)and (max-width: 390px){
    
-  
+    .end{
+      color : white;
+      position: absolute;
+      left :352px;
+      top :0;
+      font-size: xx-large
+      ;
+      font-weight: bold;
+     }
+
   .croustyetbtn{
     display: flex;
     position: fixed;
@@ -865,7 +885,16 @@ color: white;
 }
 @media only screen and (min-width : 393px)and (max-width: 393px){
  
-  
+  .end{
+    color : white;
+    position: absolute;
+    left :355px;
+    top :0;
+    font-size: xx-large
+    ;
+    font-weight: bold;
+   }
+
   .croustyetbtn{
     display: flex;
     position: fixed;
@@ -1007,7 +1036,16 @@ color: white;
 }
  @media only screen and (max-width : 360px) and (max-width: 360px){ 
   
-  
+  .end{
+    color : white;
+    position: absolute;
+    left :323px;
+    top :0;
+    font-size: xx-large
+    ;
+    font-weight: bold;
+   }
+
   .croustyetbtn{
     display: flex;
     position: fixed;
