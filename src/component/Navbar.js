@@ -27,6 +27,7 @@ function Navbar() {
   </div>
   
       <div className={hid? "navcenter left":"navcenterHidden navcenter"}>
+        <div className="end" onClick={btn}><h1>x</h1></div>
           <Link to="/" className="li"><div onClick={btn}><h3>Accueil</h3></div></Link>
           <Link to="carte"  className="li"><div onClick={btn} ><h3>Cartes</h3></div></Link>
           <Link to="horaire" className="li"><div  onClick={btn}><h3>Horaires</h3></div></Link>
