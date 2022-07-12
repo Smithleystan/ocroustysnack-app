@@ -411,21 +411,41 @@ color: white;
   /* body{
     padding-top: 3rem;
   } */
+  
+  
+  .croustyetbtn{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    justify-content: space-around;
+    gap :300px
+  }
+
+  .btn {
+    height: 30px;
+    width: 30px;
+    order: 0
+  }
+
+
+  .logo{  
+    height: 30px;
+    width: 30px;;
+    order: -1;
+  }
+
+  
+  .placelogo{width:  200px;}
+  .logoposition{
+    display: none;
+  }
 
   .left{
     left : 0;
     /* transition: all 0.1s; */
   }
-  .btncenter{
-    display : flex;
-    justify-content: start;
-    top : 0px;
-    width: 100vw;
-    background-color: white;
-    height: 3rem;
-    position: fixed;
-    align-items: center;
-  }
+
 .navcenter{
   flex-direction: column;
   width: 100vw;
@@ -534,25 +554,57 @@ color: white;
 }
 
 @media only screen and (max-width: 375px) {
-  .btncenter{
-    display : flex;
-    justify-content: center;
-    position: sticky;
-    width: 99vw;
+  
+  
+  .croustyetbtn{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    justify-content: space-around;
+    gap :300px
   }
+
+  .btn {
+    height: 30px;
+    width: 30px;
+    order: 0
+  }
+
+
+  .logo{  
+    height: 30px;
+    width: 30px;;
+    order: -1;
+  }
+
+  
+  .placelogo{width:  200px;}
+  .logoposition{
+    display: none;
+  }
+
+  .left{
+    left : 0;
+    /* transition: all 0.1s; */
+  }
+
 .navcenter{
   flex-direction: column;
   width: 100vw;
   height: 100vh;
   position: fixed;
-  transition: all 0.8s ease-out 0.8s;
-
-
+  transition: all 0.4s ;
+  
 }
 
 .navcenterHidden{
   left : -500px;
-  transition: all 0.8s ease-out 0.8s;
+  /* transition: all 0.4s ease-out 0.4s; */
+}
+
+.brefmaster{
+  background-color: black;
 }
 
   
@@ -565,6 +617,7 @@ color: white;
     height: auto;
     width: auto;
     grid-template-columns: auto;
+    padding-top: 3rem;
     /* margin: 10px 0; */
 
   }
@@ -591,7 +644,7 @@ color: white;
   }
   .imgnav{
     border-radius: 0 0 0 0;
-    width: 22.5rem;
+    width: 24.5rem;
   }
 
   .imgnav:hover{
@@ -610,11 +663,11 @@ color: white;
   }
   .card{
     display: grid;
-    grid-template-columns:90vw;
+    grid-template-columns:47vw 45vw;
     width: 0rem;
   }
   .te{
-    width: auto;
+    width: 180px;
     height: auto;
     border-radius: 0;
     overflow: hidden;
@@ -623,17 +676,15 @@ color: white;
     margin-bottom: 10px;
   }
   .testimg{
-    /* height: auto;
-    width: ; */
-    width: 90vw;
+    height: 13vh;
+    
+    width: 40vw;
     border-radius: 0;
   }
   .brefmaster{
     background-color: black;
   }
   
-  
-
   .hi{
     top : 1rem;
     position: sticky;
@@ -641,139 +692,62 @@ color: white;
   
   .homeimg{
     width: 99.5vw;
+   
   }
 }
 
   @media only screen and (max-width: 390px){
-    .btncenter{
-      display : flex;
-      justify-content: center;
-      position: sticky;
-      width: 99vw;
-    }
-  .navcenter{
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    transition: all 0.8s ease-out 0.8s;
-  
-  
-  }
-  
-  .navcenterHidden{
-    left : -500px;
-    transition: all 0.8s ease-out 0.8s;
-  }
-  
-    
-  .bref{
-      display: grid;
-      grid-template-columns: auto;
-   }
-  
-    .brefmaster{
-      height: auto;
-      width: auto;
-      grid-template-columns: auto;
-      /* margin: 10px 0; */
-  
-    }
    
-    .plan{
-      display: grid;
-      grid-template-columns: max-content;
-      grid-template-rows: auto;
-      align-items: center;
-    }
-    .planimg{
-      height: auto;
-      width: 92vw;
-    }
-    
   
-    .plou{
-      display: flex;
-      justify-content:center;
-    }
-    .plac{
-      display: flex;
-      justify-content: center;
-    }
-    .imgnav{
-      border-radius: 0 0 0 0;
-      width: 22.5rem;
-    }
-  
-    .imgnav:hover{
-      display: block;
-      height: 12rem;
-      width: 24.5rem;
-      transition: all 0.4s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid black;
-    }
-    a:hover{
-      border: none;
-     color : #7d4f34
-    }
-    .card{
-      display: grid;
-      grid-template-columns:90vw;
-      width: 0rem;
-    }
-    .te{
-      width: auto;
-      height: auto;
-      border-radius: 0;
-      overflow: hidden;
-    }
-    .li{
-      margin-bottom: 10px;
-    }
-    .testimg{
-      /* height: auto;
-      width: ; */
-      width: 90vw;
-      border-radius: 0;
-    }
-    .brefmaster{
-      background-color: black;
-    }
-    
-    
-  
-    .hi{
-      top : 1rem;
-      position: sticky;
-    }
-    
-    .homeimg{
-      width: 99.5vw;
-    }
+  .croustyetbtn{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    justify-content: space-around;
+    gap :300px
   }
-@media only screen and (max-width: 393px){
-  .btncenter{
-    display : flex;
-    justify-content: center;
-    position: sticky;
-    width: 99vw;
+
+  .btn {
+    height: 30px;
+    width: 30px;
+    order: 0
   }
+
+
+  .logo{  
+    height: 30px;
+    width: 30px;;
+    order: -1;
+  }
+
+  
+  .placelogo{width:  200px;}
+  .logoposition{
+    display: none;
+  }
+
+  .left{
+    left : 0;
+    /* transition: all 0.1s; */
+  }
+
 .navcenter{
   flex-direction: column;
   width: 100vw;
   height: 100vh;
   position: fixed;
-  transition: all 0.8s ease-out 0.8s;
-
-
+  transition: all 0.4s ;
+  
 }
 
 .navcenterHidden{
   left : -500px;
-  transition: all 0.8s ease-out 0.8s;
+  /* transition: all 0.4s ease-out 0.4s; */
+}
+
+.brefmaster{
+  background-color: black;
 }
 
   
@@ -786,6 +760,7 @@ color: white;
     height: auto;
     width: auto;
     grid-template-columns: auto;
+    padding-top: 3rem;
     /* margin: 10px 0; */
 
   }
@@ -812,7 +787,7 @@ color: white;
   }
   .imgnav{
     border-radius: 0 0 0 0;
-    width: 22.5rem;
+    width: 24.5rem;
   }
 
   .imgnav:hover{
@@ -831,11 +806,11 @@ color: white;
   }
   .card{
     display: grid;
-    grid-template-columns:90vw;
+    grid-template-columns:47vw 45vw;
     width: 0rem;
   }
   .te{
-    width: auto;
+    width: 180px;
     height: auto;
     border-radius: 0;
     overflow: hidden;
@@ -844,17 +819,15 @@ color: white;
     margin-bottom: 10px;
   }
   .testimg{
-    /* height: auto;
-    width: ; */
-    width: 90vw;
+    height: 13vh;
+    
+    width: 40vw;
     border-radius: 0;
   }
   .brefmaster{
     background-color: black;
   }
   
-  
-
   .hi{
     top : 1rem;
     position: sticky;
@@ -862,30 +835,206 @@ color: white;
   
   .homeimg{
     width: 99.5vw;
+   
+  }
+}
+@media only screen and (max-width: 393px){
+ 
+  
+  .croustyetbtn{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    justify-content: space-around;
+    gap :300px
+  }
+
+  .btn {
+    height: 30px;
+    width: 30px;
+    order: 0
+  }
+
+
+  .logo{  
+    height: 30px;
+    width: 30px;;
+    order: -1;
+  }
+
+  
+  .placelogo{width:  200px;}
+  .logoposition{
+    display: none;
+  }
+
+  .left{
+    left : 0;
+    /* transition: all 0.1s; */
+  }
+
+.navcenter{
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  transition: all 0.4s ;
+  
+}
+
+.navcenterHidden{
+  left : -500px;
+  /* transition: all 0.4s ease-out 0.4s; */
+}
+
+.brefmaster{
+  background-color: black;
+}
+
+  
+.bref{
+    display: grid;
+    grid-template-columns: auto;
+ }
+
+  .brefmaster{
+    height: auto;
+    width: auto;
+    grid-template-columns: auto;
+    padding-top: 3rem;
+    /* margin: 10px 0; */
+
+  }
+ 
+  .plan{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .planimg{
+    height: auto;
+    width: 92vw;
+  }
+  
+
+  .plou{
+    display: flex;
+    justify-content:center;
+  }
+  .plac{
+    display: flex;
+    justify-content: center;
+  }
+  .imgnav{
+    border-radius: 0 0 0 0;
+    width: 24.5rem;
+  }
+
+  .imgnav:hover{
+    display: block;
+    height: 12rem;
+    width: 24.5rem;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  a:hover{
+    border: none;
+   color : #7d4f34
+  }
+  .card{
+    display: grid;
+    grid-template-columns:47vw 45vw;
+    width: 0rem;
+  }
+  .te{
+    width: 180px;
+    height: auto;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .li{
+    margin-bottom: 10px;
+  }
+  .testimg{
+    height: 13vh;
+    
+    width: 40vw;
+    border-radius: 0;
+  }
+  .brefmaster{
+    background-color: black;
+  }
+  
+  .hi{
+    top : 1rem;
+    position: sticky;
+  }
+  
+  .homeimg{
+    width: 99.5vw;
+   
   }
 }
  @media only screen and (max-width: 360px){ 
-  .btncenter{
-    display : flex;
-    justify-content: center;
-    position: sticky;
-    width: 99vw;
+  
+  
+  .croustyetbtn{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    justify-content: space-around;
+    gap :300px
   }
+
+  .btn {
+    height: 30px;
+    width: 30px;
+    order: 0
+  }
+
+
+  .logo{  
+    height: 30px;
+    width: 30px;;
+    order: -1;
+  }
+
+  
+  .placelogo{width:  200px;}
+  .logoposition{
+    display: none;
+  }
+
+  .left{
+    left : 0;
+    /* transition: all 0.1s; */
+  }
+
 .navcenter{
   flex-direction: column;
   width: 100vw;
   height: 100vh;
   position: fixed;
-  transition: all 0.8s ease-out 0.8s;
-
-
+  transition: all 0.4s ;
+  
 }
 
 .navcenterHidden{
   left : -500px;
-  transition: all 0.8s ease-out 0.8s;
+  /* transition: all 0.4s ease-out 0.4s; */
 }
 
+.brefmaster{
+  background-color: black;
+}
+
+  
 .bref{
     display: grid;
     grid-template-columns: auto;
@@ -895,6 +1044,7 @@ color: white;
     height: auto;
     width: auto;
     grid-template-columns: auto;
+    padding-top: 3rem;
     /* margin: 10px 0; */
 
   }
@@ -921,7 +1071,7 @@ color: white;
   }
   .imgnav{
     border-radius: 0 0 0 0;
-    width: 22.5rem;
+    width: 24.5rem;
   }
 
   .imgnav:hover{
@@ -940,11 +1090,11 @@ color: white;
   }
   .card{
     display: grid;
-    grid-template-columns:90vw;
+    grid-template-columns:47vw 45vw;
     width: 0rem;
   }
   .te{
-    width: auto;
+    width: 180px;
     height: auto;
     border-radius: 0;
     overflow: hidden;
@@ -953,17 +1103,15 @@ color: white;
     margin-bottom: 10px;
   }
   .testimg{
-    /* height: auto;
-    width: ; */
-    width: 90vw;
+    height: 13vh;
+    
+    width: 40vw;
     border-radius: 0;
   }
   .brefmaster{
     background-color: black;
   }
   
-  
-
   .hi{
     top : 1rem;
     position: sticky;
@@ -971,9 +1119,9 @@ color: white;
   
   .homeimg{
     width: 99.5vw;
+   
   }
-}
-@media only screen and (max-width: 820px) and (min-width : 819px){
+}@media only screen and (max-width: 820px) and (min-width : 819px){
   .bref{
     grid-template-columns: 300px 300px;
     row-gap: 10px;
