@@ -500,11 +500,11 @@ color: white;
   }
   .card{
     display: grid;
-    grid-template-columns:90vw;
+    grid-template-columns:47vw 45vw;
     width: 0rem;
   }
   .te{
-    width: auto;
+    width: 180px;
     height: auto;
     border-radius: 0;
     overflow: hidden;
@@ -513,9 +513,9 @@ color: white;
     margin-bottom: 10px;
   }
   .testimg{
-    /* height: auto;
-    width: ; */
-    width: 90vw;
+    height: 13vh;
+    
+    width: 40vw;
     border-radius: 0;
   }
   .brefmaster{
