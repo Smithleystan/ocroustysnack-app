@@ -419,6 +419,7 @@ color: white;
     background-color: white;
     width: 100vw;
     justify-content: space-around;
+    align-items: center;
     gap :300px
   }
 
@@ -507,7 +508,7 @@ color: white;
   .imgnav:hover{
     display: block;
     height: 12rem;
-    width: 24.5rem;
+    width: 23.5rem;
     transition: all 0.4s;
     display: flex;
     align-items: center;
@@ -553,7 +554,7 @@ color: white;
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 375px) {
   
   
   .croustyetbtn{
@@ -644,7 +645,7 @@ color: white;
   }
   .imgnav{
     border-radius: 0 0 0 0;
-    width: 24.5rem;
+    width: 21.5rem;
   }
 
   .imgnav:hover{
@@ -696,7 +697,7 @@ color: white;
   }
 }
 
-  @media only screen and (max-width: 390px){
+  @media only screen and (min-width : 390px)and (max-width: 390px){
    
   
   .croustyetbtn{
@@ -787,7 +788,7 @@ color: white;
   }
   .imgnav{
     border-radius: 0 0 0 0;
-    width: 24.5rem;
+    width: 22.5rem;
   }
 
   .imgnav:hover{
@@ -838,7 +839,7 @@ color: white;
    
   }
 }
-@media only screen and (max-width: 393px){
+@media only screen and (min-width : 393px)and (max-width: 393px){
  
   
   .croustyetbtn{
@@ -929,7 +930,7 @@ color: white;
   }
   .imgnav{
     border-radius: 0 0 0 0;
-    width: 24.5rem;
+    width: 23.5rem;
   }
 
   .imgnav:hover{
@@ -980,7 +981,7 @@ color: white;
    
   }
 }
- @media only screen and (max-width: 360px){ 
+ @media only screen and (max-width : 360px) and (max-width: 360px){ 
   
   
   .croustyetbtn{
@@ -1071,7 +1072,7 @@ color: white;
   }
   .imgnav{
     border-radius: 0 0 0 0;
-    width: 24.5rem;
+    width: 21.5rem;
   }
 
   .imgnav:hover{
@@ -1094,7 +1095,7 @@ color: white;
     width: 0rem;
   }
   .te{
-    width: 180px;
+    width: 160px;
     height: auto;
     border-radius: 0;
     overflow: hidden;
