@@ -416,11 +416,16 @@ color: white;
   font-size : large
 }
 
-@media only screen and (max-width : 2000px) and (min-width : 415px){
+
+@media only screen and (max-width : 2000px) and (min-width : 501px){
   .end{
     display: none;
   }
+  .endo{
+    display: none;
+  }
 }
+
 
 
 @media only screen and (max-width : 414px) {
@@ -434,7 +439,178 @@ color: white;
    .end:hover{color: white;}
 }
 
-@media only screen and (max-width: 414px) and (min-width: 412px) { 
+
+@media only screen and (max-width: 800px) and (min-width: 750px){
+  end{
+    color : white;
+    position: absolute;
+    left :376px;
+    top :0;
+    font-size: xx-large
+    ;
+    font-weight: bold;
+    opacity: 1;
+    transition: all 1s;
+   }
+   
+   .endo{
+    color : white;
+    position: absolute;
+    left :376px;
+    top :0;
+    font-size: xx-large
+    ;
+    font-weight: bold;
+    opacity: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+   }
+
+  
+  .croustyetbtn{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    gap :300px
+  }
+
+  .btn {
+    height: 30px;
+    width: 30px;
+    order: 0
+  }
+
+
+  .logo{  
+    height: 30px;
+    width: 30px;;
+    order: -1;
+  }
+
+  
+  .placelogo{width:  200px;}
+  .logoposition{
+    display: none;
+  }
+
+  .left{
+    left : 0;
+    /* transition: all 0.1s; */
+  }
+
+.navcenter{
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  transition: all 0.4s ;
+  
+}
+
+.navcenterHidden{
+  left : -800px;
+  /* transition: all 0.4s ease-out 0.4s; */
+}
+
+.brefmaster{
+  background-color: black;
+}
+
+  
+.bref{
+    display: grid;
+    grid-template-columns: auto;
+ }
+
+  .brefmaster{
+    height: auto;
+    width: auto;
+    grid-template-columns: auto;
+    padding-top: 3rem;
+    /* margin: 10px 0; */
+
+  }
+ 
+  .plan{
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .planimg{
+    height: auto;
+    width: 92vw;
+  }
+  
+
+  .plou{
+    display: flex;
+    justify-content:center;
+  }
+  .plac{
+    display: flex;
+    justify-content: center;
+  }
+  .imgnav{
+    border-radius: 0 0 0 0;
+    width: 24.5rem;
+  }
+
+  .imgnav:hover{
+    display: block;
+    height: 12rem;
+    width: 23.5rem;
+    transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  a:hover{
+    border: none;
+   color : #7d4f34
+  }
+  .card{
+    display: grid;
+    grid-template-columns:47vw 45vw;
+    width: 0rem;
+  }
+  .te{
+    width: 180px;
+    height: auto;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  .li{
+    margin-bottom: 10px;
+  }
+  .testimg{
+    height: 13vh;
+    
+    width: 40vw;
+    border-radius: 0;
+  }
+  .brefmaster{
+    background-color: black;
+  }
+  
+  .hi{
+    top : 1rem;
+    position: sticky;
+  }
+  
+  .homeimg{
+    width: 99.5vw;
+   
+  }
+}
+
+
+
+
+@media only screen and (max-width: 500px) and (min-width: 390px) { 
   /* body{
     padding-top: 3rem;
   } */
@@ -447,6 +623,20 @@ color: white;
     font-size: xx-large
     ;
     font-weight: bold;
+    opacity: 1;
+    transition: all 1s;
+   }
+   
+   .endo{
+    color : white;
+    position: absolute;
+    left :376px;
+    top :0;
+    font-size: xx-large
+    ;
+    font-weight: bold;
+    opacity: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
    }
 
   
