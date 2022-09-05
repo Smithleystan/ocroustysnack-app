@@ -1,0 +1,23 @@
+.drink__row{
+   
+    display : grid;
+    gap: 20px;
+    grid-template-columns: 200px 200px;
+}
+
+
+.drink__name{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.drink__price{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Drink__title{
+    padding: 30px;
+}
